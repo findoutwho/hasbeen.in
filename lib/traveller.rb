@@ -1,7 +1,6 @@
 require 'ostruct'
 require 'digest/md5'
 require 'yaml'
-require 'pry'
 
 class Traveller < OpenStruct
 

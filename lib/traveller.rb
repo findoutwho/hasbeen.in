@@ -4,7 +4,7 @@ require 'yaml'
 
 class Traveller < OpenStruct
 
-  def self.find(id, dir = "/Users/bascht/Documents/Code/hasbeen/config/travellers")
+  def self.find(id, dir = "config/travellers")
     source = File.join(dir, "#{id}.yml")
 
     if File.exist? source

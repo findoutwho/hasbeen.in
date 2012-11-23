@@ -1,0 +1,12 @@
+name: "Bascht"
+profile:
+  web: "http://bascht.com"
+  twitter: "bascht"
+  email: "github.com@bascht.com"
+hasbeen:
+  cities:
+    - "Leipzig"
+    - "Hamburg"
+    - "Oelsnitz"
+    - "Bangkok"
+    - "Shanghai"

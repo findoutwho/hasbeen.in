@@ -1,0 +1,18 @@
+<div style="position: absolute;" class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div style="width: auto; padding: 0 20px;" class="container">
+      <div class="row-fluid">
+        <div class="span2">
+          <img class="img-polaroid" style="margin-top:1em;" src="<%= @traveller.gravatar %>" />
+        </div>
+        <div class="span10 nav">
+          <p class="lead">
+            <h1><%= link_to @traveller.name, url_for(:index) %></h1>
+            <p class="lead">has been in <%= format_locations(@traveller.locations) %>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

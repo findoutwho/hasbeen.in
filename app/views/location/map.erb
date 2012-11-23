@@ -1,0 +1,20 @@
+<div style="position: absolute;" class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div style="width: auto; padding: 0 20px;" class="container">
+      <div class="row-fluid">
+        <div class="span2">
+          <img class="img-polaroid" style="margin-top:1em;" src="<%= @traveller.gravatar %>" />
+        </div>
+        <div class="span10 nav">
+          <p class="lead">
+            <h1><%= link_to @traveller.name, url_for(:index) %></h1>
+            <p class="lead"><%= "#{@verb} been in #{@location}" %>.</p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="xhead" class="page-header">
+</div>
+<div id="map" style="width:100%; height:100%"></div>

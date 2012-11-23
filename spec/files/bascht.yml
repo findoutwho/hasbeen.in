@@ -1,0 +1,11 @@
+name: "Bascht"
+profile:
+  web: "http://bascht.com"
+  twitter: "bascht"
+hasbeen:
+  cities:
+    - "Leipzig"
+    - "Hamburg"
+    - "Oelsnitz"
+    - "Bangkok"
+    - "Shanghai"

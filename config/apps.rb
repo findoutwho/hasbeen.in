@@ -1,0 +1,1 @@
+Padrino.mount("HasBeen").to('/')

@@ -1,9 +1,7 @@
 # Helper methods defined here can be accessed in any controller or view in the application
 
 HasBeen.helpers do
-  def username
-    request.host.match(/([A-z0-9]+).hasbeen.in$/)[1]
-  end
+
   def format_locations(locations)
     links = locations.collect do |location|
       location = escape_html(location)
@@ -23,4 +21,16 @@ HasBeen.helpers do
       "#{first} and #{last}"
     end
   end
+
+  def username
+    sub = request.host.match(/([A-z0-9]+).hasbeen.(dev|in)$/)
+    sub[1] if defined? sub[1]
+  end
+
+  private
+
+  def parsed_uri
+    Addressable::URI.parse( request.url )
+  end
+
 end

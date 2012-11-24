@@ -3,7 +3,9 @@
     <div style="width: auto; padding: 0 20px;" class="container">
       <div class="row-fluid">
         <div class="span2">
-          <img class="img-polaroid" style="margin-top:1em;" src="<%= @traveller.gravatar %>" />
+          <% if @traveller.gravatar %>
+            <img class="img-polaroid" style="margin-top:1em;" src="<%= @traveller.gravatar %>" />
+          <% end %>
         </div>
         <div class="span10 nav">
           <p class="lead">

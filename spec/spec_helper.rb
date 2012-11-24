@@ -13,9 +13,10 @@ RSpec.configure do |conf|
   conf.include Capybara::DSL
 end
 
+def visit_profile(traveller, location = '')
+  visit "http://#{traveller}.hasbeen.in/#{location}"
+end
+
 def app
-  ##
-  # You can handle all padrino applications using instead:
-  #   Padrino.application
   HasBeen.tap { |app|  }
 end

@@ -5,9 +5,9 @@ class HasBeen < Padrino::Application
 
   enable :sessions
 
-  set :datasource, "config/travellers"
+  set :datadir, "config/travellers"
 
   configure :testing do
-    set :datasource, "spec/files"
+    set :datadir, "spec/files"
   end
 end

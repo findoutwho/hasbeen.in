@@ -1,17 +1,13 @@
+# encoding: utf-8
+
 require 'spec_helper'
-#require 'pry'
 
 describe "Profiles" do
-  before(:each) do
-    visit "http://bascht.hasbeen.in"
-  end
 
-  it "should have some properties" do
+  it "should have some properties and link to themselves" do
+    visit_profile "bascht"
     page.status_code.should == 200
     page.should have_content "Bascht"
-  end
-
-  it "should link to themselves" do
     click_link("Bascht")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig, Hamburg, Oelsnitz, Bangkok and Shanghai."
@@ -19,17 +15,34 @@ describe "Profiles" do
   end
 
   it "should have clickable location links" do
+    visit_profile "bascht"
     click_link("Leipzig")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig."
     current_url.should == "http://bascht.hasbeen.in/Leipzig"
   end
+
+  it "should take care of unicode" do
+    visit_profile "bjoern"
+    page.should have_content "Bjørn Lynne has been in no locations yet."
+  end
+
+  it "should generate readable sentences" do
+    visit_profile "franz"
+    page.should have_content "Franz Josef has been in Leipzig and Shanghai."
+  end
 end
 
 describe "Locations" do
   it "should handle unknown locations" do
-    visit "http://bascht.hasbeen.in/Hierwarnochkeinschwein/"
+    visit_profile "bascht", "Hierwarnochkeinschwein"
     page.status_code.should == 404
     page.should have_content "Bascht hasn't been in Hierwarnochkeinschwein."
   end
 end
+
+describe "The www subdomain" do
+  it "should not be mapped to travellers" do
+  end
+end
+

@@ -1,11 +1,13 @@
+# encoding: utf-8
+
 require 'ostruct'
 require 'digest/md5'
 require 'yaml'
 
 class Traveller < OpenStruct
 
-  def self.find(id, dir = "config/travellers")
-    source = File.join(dir, "#{id}.yml")
+  def self.find(id)
+    source = File.join(HasBeen.datadir, "#{id}.yml")
 
     if File.exist? source
       tree = YAML.load(File.read source)
@@ -28,8 +30,9 @@ class Traveller < OpenStruct
   end
 
   def gravatar
-    email = self.profile["email"].downcase
-    hash = Digest::MD5.hexdigest(email)
-    "http://www.gravatar.com/avatar/#{hash}"
+    if self.profile && self.profile["email"]
+      hash = Digest::MD5.hexdigest(self.profile["email"])
+      "http://www.gravatar.com/avatar/#{hash}"
+    end
   end
 end

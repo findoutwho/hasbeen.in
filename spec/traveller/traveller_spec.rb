@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper.rb')
 
 describe "A traveller" do
 
-  let(:traveller) { traveller = Traveller.find("Bascht") }
+  let(:traveller) { traveller = Travellers.find("Bascht") }
 
   it "should initialize with a name and some Properties" do
   end
@@ -35,5 +35,15 @@ describe "A traveller" do
   it "should not be case sensitive" do
     traveller.hasbeen_in?("leipzig").should == true
     traveller.hasbeen_in?("BUXTEHUDE").should == false
+  end
+
+  it "should give me a list of travellers" do
+    travellers = Travellers.find_all
+    travellers.should == [
+      Travellers.find("bascht"),
+      Travellers.find("bjoern"),
+      Travellers.find("franz"),
+      Travellers.find("max")
+    ]
   end
 end

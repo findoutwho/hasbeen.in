@@ -4,13 +4,14 @@ HasBeen.controllers do
   get :index do
     case username
     when nil
+      @travellers = Travellers.find_all
       render "index"
     when "www"
       uri = parsed_uri()
       uri.host = uri.host.sub(/^www./, '')
       redirect uri.to_s
     else
-      @traveller = Traveller.find(username)
+      @traveller = Travellers.find(username)
       halt 404 if @traveller.nil?
       render "location/overview"
     end
@@ -18,7 +19,7 @@ HasBeen.controllers do
 
   get :index, :map => "/:location" do
     halt 404 unless defined? username
-    @traveller = Traveller.find(username)
+    @traveller = Travellers.find(username)
     halt 404 if @traveller.nil?
     @location = escape_html(params[:location].force_encoding("UTF-8"))
     if @traveller.hasbeen_in?(@location)

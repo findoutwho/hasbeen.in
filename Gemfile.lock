@@ -94,6 +94,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   addressable
   capybara
   fakeweb

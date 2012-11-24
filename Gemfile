@@ -10,7 +10,8 @@ group :development do
 end
 
 # Component requirements
-gem 'addressable', :require => 'addressable/uri'
+gem 'addressable'
+gem 'activesupport'
 
 # Test requirements
 group :test do

@@ -10,7 +10,6 @@ group :development do
 end
 
 # Component requirements
-gem 'haml'
 
 # Test requirements
 group :test do

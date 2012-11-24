@@ -4,6 +4,7 @@ GEM
     activesupport (3.2.7)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    addressable (2.3.2)
     capybara (2.0.1)
     coderay (1.0.7)
     daemons (1.1.9)
@@ -93,6 +94,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  addressable
   capybara
   fakeweb
   nokogiri

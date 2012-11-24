@@ -10,9 +10,9 @@ describe "A traveller" do
   it "should initialize with a name and some Properties" do
     traveller.name.should == "Bascht"
     traveller.profile.should == { 
-      "web" => "http://bascht.com", 
+      "web"     => "http://bascht.com", 
       "twitter" => "bascht", 
-      "email" => "github.com@bascht.com" 
+      "email"   => "github.com@bascht.com" 
     }
   end
 

@@ -2,15 +2,23 @@ HasBeen.controllers do
   layout :application
 
   get :index do
-    halt 404 unless defined? username
-    @traveller = Traveller.find(username.downcase)
-    halt 404 if @traveller.nil?
-    render "location/overview"
+    case username
+    when nil
+      render "index"
+    when "www"
+      uri = parsed_uri()
+      uri.host = uri.host.sub(/^www./, '')
+      redirect uri.to_s
+    else
+      @traveller = Traveller.find(username)
+      halt 404 if @traveller.nil?
+      render "location/overview"
+    end
   end
 
   get :index, :map => "/:location" do
     halt 404 unless defined? username
-    @traveller = Traveller.find(username.downcase)
+    @traveller = Traveller.find(username)
     halt 404 if @traveller.nil?
     @location = escape_html(params[:location].force_encoding("UTF-8"))
     if @traveller.hasbeen_in?(@location)

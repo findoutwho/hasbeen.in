@@ -2,6 +2,15 @@
 
 require 'spec_helper'
 
+describe "The www subdomain" do
+  it "should not be mapped to travellers" do
+    visit_profile "www"
+    page.status_code.should == 200
+    current_url.should == "http://hasbeen.in/"
+    page.should have_content "Welcome to hasbeen.in." 
+  end
+end
+
 describe "Profiles" do
 
   it "should have some properties and link to themselves" do
@@ -38,11 +47,6 @@ describe "Locations" do
     visit_profile "bascht", "Hierwarnochkeinschwein"
     page.status_code.should == 404
     page.should have_content "Bascht hasn't been in Hierwarnochkeinschwein."
-  end
-end
-
-describe "The www subdomain" do
-  it "should not be mapped to travellers" do
   end
 end
 

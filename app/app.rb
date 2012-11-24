@@ -7,7 +7,7 @@ class HasBeen < Padrino::Application
 
   set :datadir, "config/travellers"
 
-  configure :testing do
+  configure :test do
     set :datadir, "spec/files"
   end
 end

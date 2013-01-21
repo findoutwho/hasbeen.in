@@ -10,6 +10,7 @@
             <h1><%= link_to @traveller.name, url_for(:index) %></h1>
             <p class="lead"><%= "#{@verb} been in #{@location}" %>.</p>
           </p>
+          <%= join_us_link %>
         </div>
       </div>
     </div>

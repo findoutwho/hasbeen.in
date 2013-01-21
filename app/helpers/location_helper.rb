@@ -2,7 +2,6 @@
 require 'addressable/template'
 
 HasBeen.helpers do
-
   def format_travellers(travellers)
     links = travellers.collect do |traveller|
       template = Addressable::Template.new(HasBeen.url_template)
@@ -39,4 +38,7 @@ HasBeen.helpers do
     Addressable::URI.parse( request.url )
   end
 
+  def join_us_link
+    '<p class="mini muted pull-right"><small>Join hasbeen.in at <a href="https://github.com/bascht/hasbeen.in">Github</a>!</small></p>'
+  end
 end

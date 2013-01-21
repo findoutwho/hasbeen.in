@@ -20,9 +20,8 @@ class Traveller < OpenStruct
   end
 
   def gravatar
-    if self.profile && self.profile["email"]
-      hash = Digest::MD5.hexdigest(self.profile["email"])
-      "http://www.gravatar.com/avatar/#{hash}"
+    if self.profile && self.profile["gravatar"]
+      "http://www.gravatar.com/avatar/#{self.profile["gravatar"]}"
     end
   end
 end

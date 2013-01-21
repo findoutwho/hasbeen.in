@@ -3,10 +3,13 @@
 Find out where your fellow geeks have been, add yourself:
 
 * Fork this repo
-* Add your traveller file
+* Add your traveller file (*)
 * Send a pull request
 
 ### Traveller Profiles
+
+(*) You'll find the profiles in `config/travellers`. The
+filename will be your subdomain name, so `bascht.yaml` will be available at [bascht.hasbeen.in](http://bascht.hasbeen.in).
 
     name: "Bascht"
     profile:

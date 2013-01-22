@@ -1,7 +1,7 @@
 class Travellers
 
   def self.find(id)
-    source = File.join(HasBeen.datadir, "#{id}.yml")
+    source = File.join(HasBeen.datadir, "#{id}.yml").downcase
 
     if File.exist? source
       tree = YAML.load(File.read source)
@@ -11,9 +11,11 @@ class Travellers
 
   def self.find_all
     files = Dir.glob("#{HasBeen.datadir}/[^www]*.yml")
-    files.collect{|file|
+    files.sort!
+    files.collect do |file|
       name = File.basename(file, ".yml")
-      Travellers.find(name) 
-    }
+      self.find(name)
+    end
   end
+
 end

@@ -1,0 +1,21 @@
+name: "tisba"
+profile:
+  web: "http://tisba.de"
+  twitter: "tisba"
+  gravatar: "f6f26d58e44fdf303d4874f41c876ab4"
+hasbeen:
+  cities:
+    - "Cologne"
+    - "Munich"
+    - "Berlin"
+    - "Leipzig"
+    - "Hamburg"
+    - "Bangkok"
+    - "Shanghai"
+    - "Prague"
+    - "Paris"
+    - "Brussels"
+    - "Beijing"
+    - "Ho Chi Minh City"
+    - "Singapore"
+    - "Kuala Lumpur"

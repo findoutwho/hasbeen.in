@@ -10,6 +10,14 @@ describe "The www subdomain" do
     page.should have_content "Hej."
     page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Franz Josef and Maximilian have been to. "
   end
+
+  it "should have links to the correct travellers" do
+    visit_profile "www"
+    click_link "Bjørn Lynne"
+    current_url.should == "http://bjoern.hasbeen.test/"
+    page.status_code.should == 200
+    page.should have_content "Bjørn Lynne"
+  end
 end
 
 describe "Profiles" do

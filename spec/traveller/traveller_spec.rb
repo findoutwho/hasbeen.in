@@ -6,7 +6,8 @@ describe "A traveller" do
 
   it "should initialize with a name and some Properties" do
     traveller.name.should == "Bascht"
-    traveller.profile.should == { 
+    traveller.username.should == "bascht"
+    traveller.profile.should == {
       "web"       => "http://bascht.com",
       "twitter"   => "bascht",
       "gravatar"  => "8656dc5476c819d4dcbd932a5744122a"

@@ -7,7 +7,7 @@ HasBeen.helpers do
       template = Addressable::Template.new(HasBeen.url_template)
       link_to(
         traveller.name, 
-        template.expand({:traveller => traveller.name})
+        template.expand({:traveller => traveller.username})
       )
     end
 

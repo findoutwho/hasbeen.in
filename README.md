@@ -23,3 +23,6 @@ filename will be your subdomain name, so `bascht.yaml` will be available at [bas
         - "Oelsnitz"
         - "Cologne"
     […]
+
+-- 
+![Travis Build Status](https://travis-ci.org/bascht/hasbeen.in.png)

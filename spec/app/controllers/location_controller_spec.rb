@@ -3,10 +3,10 @@
 require 'spec_helper'
 
 describe "The www subdomain" do
-  it "should not be mapped to travellers" do
+  it "should redirect to the homepage" do
     visit_profile "www"
     page.status_code.should == 200
-    current_url.should == "http://hasbeen.in/"
+    current_url.should == "http://hasbeen.test/"
     page.should have_content "Hej."
     page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Franz Josef and Maximilian have been to. "
   end
@@ -21,7 +21,7 @@ describe "Profiles" do
     click_link("Bascht")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig, Hamburg, Oelsnitz, Bangkok and Shanghai."
-    current_url.should == "http://bascht.hasbeen.in/"
+    current_url.should == "http://bascht.hasbeen.test/"
   end
 
   it "should have clickable location links" do
@@ -29,7 +29,7 @@ describe "Profiles" do
     click_link("Leipzig")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig."
-    current_url.should == "http://bascht.hasbeen.in/Leipzig"
+    current_url.should == "http://bascht.hasbeen.test/Leipzig"
   end
 
   it "should take care of unicode" do

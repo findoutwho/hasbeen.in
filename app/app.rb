@@ -14,6 +14,6 @@ class HasBeen < Padrino::Application
 
   configure :test do
     set :datadir, "spec/files"
-    set :url_template, "http://{traveller}.hasbeen.dev/{location}"
+    set :url_template, "http://{traveller}.hasbeen.test/{location}"
   end
 end

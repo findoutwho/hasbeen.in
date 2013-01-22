@@ -1,4 +1,4 @@
-PADRINO_ENV = 'test' unless defined?(PADRINO_ENV)
+PADRINO_ENV = :test unless defined?(PADRINO_ENV)
 require File.expand_path(File.dirname(__FILE__) + "/../config/boot")
 require 'capybara'
 require 'capybara/dsl'
@@ -14,7 +14,7 @@ RSpec.configure do |conf|
 end
 
 def visit_profile(traveller, location = '')
-  visit "http://#{traveller}.hasbeen.in/#{location}"
+  visit "http://#{traveller}.hasbeen.test/#{location}"
 end
 
 def app

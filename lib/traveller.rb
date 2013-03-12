@@ -7,7 +7,15 @@ require 'yaml'
 class Traveller < OpenStruct
   def locations
     unless self.hasbeen["cities"].nil?
-      self.hasbeen["cities"]
+      self.hasbeen["cities"].collect do |city|
+        if city.kind_of? Hash
+          location = Location.new(city.keys.first)
+          location.hint = String.new(city.values.first)
+        else
+          location = Location.new(city.to_s)
+        end
+        location
+      end
     else
       [] 
     end
@@ -17,6 +25,10 @@ class Traveller < OpenStruct
     self.locations.any?{ |location| 
       location.casecmp(place) == 0 
     }
+  end
+
+  def find_location(location)
+    self.locations.grep(location).first
   end
 
   def gravatar

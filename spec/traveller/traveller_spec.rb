@@ -3,6 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper.rb')
 describe "A traveller" do
 
   let(:traveller) { traveller = Travellers.find("Bascht") }
+  let(:amerika)   { traveller.find_location("Amerika") }
 
   it "should initialize with a name and some Properties" do
     traveller.name.should == "Bascht"
@@ -15,14 +16,22 @@ describe "A traveller" do
   end
 
   it "should have been to some location" do
-    traveller.locations.count.should == 5
+    traveller.locations.count.should == 6
     traveller.locations.should == [ 
       "Leipzig", 
       "Hamburg", 
       "Oelsnitz", 
       "Bangkok", 
-      "Shanghai" 
+      "Shanghai",
+      "Amerika"
     ]
+  end
+
+  # Yep, Amerika is a part of a small town in saxony.
+  it "should allow to give hints" do
+    traveller.hasbeen_in?("Amerika").should == true
+    amerika.should == "Amerika"
+    amerika.hint.should == "Amerika, Penig, Deutschland"
   end
 
   it "should know where it has been" do

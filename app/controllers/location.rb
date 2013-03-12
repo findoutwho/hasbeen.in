@@ -21,10 +21,14 @@ HasBeen.controllers do
     halt 404 unless defined? username
     @traveller = Travellers.find(username)
     halt 404 if @traveller.nil?
-    @location = escape_html(params[:location].force_encoding("UTF-8"))
-    if @traveller.hasbeen_in?(@location)
+
+    location = escape_html(params[:location].force_encoding("UTF-8"))
+
+    if @traveller.hasbeen_in?(location)
+      @location = @traveller.find_location(location)
       @verb = "has"
     else
+      @location = Location.new(location)
       @verb = "hasn't"
       status 404
     end

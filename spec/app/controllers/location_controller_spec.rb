@@ -28,7 +28,7 @@ describe "Profiles" do
     page.should have_content "Bascht"
     click_link("Bascht")
     page.status_code.should == 200
-    page.should have_content "Bascht has been in Leipzig, Hamburg, Oelsnitz, Bangkok and Shanghai."
+    page.should have_content "Bascht has been in Leipzig, Hamburg, Oelsnitz, Bangkok, Shanghai and Amerika."
     current_url.should == "http://bascht.hasbeen.test/"
   end
 
@@ -37,8 +37,21 @@ describe "Profiles" do
     click_link("Leipzig")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig."
+    page.should have_xpath('/html/body[@onload]')
+    page.should have_xpath('/html/body[@onload="goto(\'Leipzig\')"]')
     current_url.should == "http://bascht.hasbeen.test/Leipzig"
   end
+
+  it "should allow hinting to the correct places" do
+    visit_profile "bascht"
+    click_link("Amerika")
+    page.status_code.should == 200
+    page.should have_content "Bascht has been in Amerika."
+    page.should have_xpath('/html/body[@onload]')
+    page.should have_xpath('/html/body[@onload="goto(\'Amerika, Penig, Deutschland\')"]')
+    current_url.should == "http://bascht.hasbeen.test/Amerika"
+  end
+
 
   it "should take care of unicode" do
     visit_profile "bjoern"
@@ -56,6 +69,7 @@ describe "Locations" do
     visit_profile "bascht", "Hierwarnochkeinschwein"
     page.status_code.should == 404
     page.should have_content "Bascht hasn't been in Hierwarnochkeinschwein."
+    page.should have_xpath('/html/body[@onload="goto(\'Hierwarnochkeinschwein\')"]')
   end
 end
 

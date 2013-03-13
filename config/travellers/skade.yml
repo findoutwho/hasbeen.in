@@ -23,7 +23,7 @@ hasbeen:
     - "Toronto"
     - "Niagara Falls"
     - "Kasane"
-    - "Livingstone"
+    - {"Livingstone": "Livingstone, Southern, Simbabwe"}
     - "Paris"
     - "Nice"
     - "Marrakesh"

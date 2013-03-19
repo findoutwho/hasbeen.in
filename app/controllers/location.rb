@@ -22,7 +22,7 @@ HasBeen.controllers do
     @traveller = Travellers.find(username)
     halt 404 if @traveller.nil?
 
-    location = escape_html(params[:location].force_encoding("UTF-8"))
+    location = CGI.unescapeHTML(params[:location].force_encoding("UTF-8"))
 
     if @traveller.hasbeen_in?(location)
       @location = @traveller.find_location(location)

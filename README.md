@@ -25,4 +25,4 @@ filename will be your subdomain name, so `bascht.yaml` will be available at [bas
     […]
 
 -- 
-[![Travis Build Status](https://travis-ci.org/bascht/hasbeen.in.png)](https://travis-ci.org/bascht/hasbeen.in)
+[![Travis Build Status](https://travis-ci.org/bascht/hasbeen.in.png?branch=master)](https://travis-ci.org/bascht/hasbeen.in)

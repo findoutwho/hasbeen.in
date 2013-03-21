@@ -3,6 +3,8 @@
  */
 function goto(location) {
   if(location) {
+    location = unescape(location);
+
     var geocoder        = new google.maps.Geocoder();
     var geocoderRequest = { address: location }
 

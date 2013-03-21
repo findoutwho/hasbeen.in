@@ -48,7 +48,7 @@ describe "Profiles" do
     page.status_code.should == 200
     page.should have_content "Bascht has been in Amerika."
     page.should have_xpath('/html/body[@onload]')
-    page.should have_xpath('/html/body[@onload="goto(\'Amerika, Penig, Deutschland\')"]')
+    page.should have_xpath('/html/body[@onload="goto(\'Amerika%2C+Penig%2C+Deutschland\')"]')
     current_url.should == "http://bascht.hasbeen.test/Amerika"
   end
 

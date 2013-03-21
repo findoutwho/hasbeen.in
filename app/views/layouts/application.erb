@@ -6,7 +6,7 @@
     <%= javascript_include_tag 'hasbeen' %>
     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyAaMSg6gwxHyX9_dRb--bqCGKzeC6AS0yU&sensor=false" %>
   </head>
-  <body onload="goto('<%= (@location.hint || @location) unless @location.nil? %>')">
+  <body onload="goto('<%= CGI.escape(@location.hint || @location) unless @location.nil? %>')">
     <%= yield %>
   </body>
 </html>

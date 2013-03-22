@@ -1,0 +1,9 @@
+name: "Encoding Connoisseur"
+hasbeen:
+  cities:
+    - "Wrocław"
+    - "St. John's"
+    - {"กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลกภพ นพรัตนราชธานีบูรีรมย์ อุดมราชนิเวศน์มหาสถาน อมรพิมานอวตารสถิต" : "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit"}
+    - {"重庆": "Chóngqìng"}
+    - 成都
+    - "Llanfairpwllgwyngyll"

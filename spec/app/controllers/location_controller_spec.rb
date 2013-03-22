@@ -8,7 +8,7 @@ describe "The www subdomain" do
     page.status_code.should == 200
     current_url.should == "http://hasbeen.test/"
     page.should have_content "Hej."
-    page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Franz Josef and Maximilian have been to. "
+    page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Encoding Connoisseur, Franz Josef and Maximilian have been to. "
   end
 
   it "should have links to the correct travellers" do

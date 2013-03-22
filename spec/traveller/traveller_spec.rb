@@ -1,8 +1,11 @@
+# encoding: utf-8
+
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper.rb')
 
 describe "A traveller" do
 
   let(:traveller) { traveller = Travellers.find("Bascht") }
+  let(:encoding_junkie) { traveller = Travellers.find("encoder") }
   let(:amerika)   { traveller.find_location("Amerika") }
 
   it "should initialize with a name and some Properties" do
@@ -49,8 +52,19 @@ describe "A traveller" do
     travellers.should == [
       Travellers.find("bascht"),
       Travellers.find("bjoern"),
+      Travellers.find("encoder"),
       Travellers.find("franz"),
       Travellers.find("max")
     ]
   end
+
+  it "should survive different encoding styles" do
+    encoding_junkie.hasbeen_in?("Wrocław").should == true
+    encoding_junkie.hasbeen_in?("St. John's").should == true
+    encoding_junkie.hasbeen_in?("重庆").should == true
+    aliased_chinese_city = encoding_junkie.find_location("重庆")
+    aliased_chinese_city.should == "重庆"
+    aliased_chinese_city.hint.should == "Chóngqìng"
+  end
+
 end

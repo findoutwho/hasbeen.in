@@ -8,7 +8,7 @@ HasBeen.controllers do
       render "index"
     when "www"
       uri = parsed_uri()
-      uri.host = uri.host.sub(/^www./, '')
+      uri.host.sub!(/^www./, '')
       redirect uri.to_s
     else
       @traveller = Travellers.find(username)

@@ -21,7 +21,6 @@ describe "The www subdomain" do
 end
 
 describe "Profiles" do
-
   it "should have some properties and link to themselves" do
     visit_profile "bascht"
     page.status_code.should == 200
@@ -52,7 +51,6 @@ describe "Profiles" do
     current_url.should == "http://bascht.hasbeen.test/Amerika"
   end
 
-
   it "should take care of unicode" do
     visit_profile "bjoern"
     page.should have_content "Bjørn Lynne has been in no locations yet."
@@ -72,4 +70,3 @@ describe "Locations" do
     page.should have_xpath('/html/body[@onload="goto(\'Hierwarnochkeinschwein\')"]')
   end
 end
-

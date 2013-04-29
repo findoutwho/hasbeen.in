@@ -17,13 +17,13 @@ class Traveller < OpenStruct
         location
       end
     else
-      [] 
+      []
     end
   end
 
   def hasbeen_in?(place)
-    self.locations.any?{ |location| 
-      location.casecmp(place) == 0 
+    self.locations.any?{ |location|
+      location.casecmp(place) == 0
     }
   end
 

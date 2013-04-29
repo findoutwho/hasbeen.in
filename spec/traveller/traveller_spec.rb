@@ -20,11 +20,11 @@ describe "A traveller" do
 
   it "should have been to some location" do
     traveller.locations.count.should == 6
-    traveller.locations.should == [ 
-      "Leipzig", 
-      "Hamburg", 
-      "Oelsnitz", 
-      "Bangkok", 
+    traveller.locations.should == [
+      "Leipzig",
+      "Hamburg",
+      "Oelsnitz",
+      "Bangkok",
       "Shanghai",
       "Amerika"
     ]
@@ -66,5 +66,4 @@ describe "A traveller" do
     aliased_chinese_city.should == "重庆"
     aliased_chinese_city.hint.should == "Chóngqìng"
   end
-
 end

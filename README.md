@@ -27,4 +27,4 @@ filename will be your subdomain name, so `bascht.yaml` will be available at [bas
         - "Cologne"
     […]
 
--- 
+--

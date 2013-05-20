@@ -21,4 +21,3 @@ function goto(location) {
     });
   }
 }
-

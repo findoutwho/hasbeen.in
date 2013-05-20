@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Helper methods defined here can be accessed in any controller or view in the application
 require 'addressable/template'
 
@@ -40,5 +41,14 @@ HasBeen.helpers do
 
   def join_us_link
     '<p class="mini muted pull-right"><small>Join hasbeen.in at <a href="https://github.com/bascht/hasbeen.in">Github</a>!</small></p>'
+  end
+
+  def descriptive_title
+    suffix = if username
+      "Places #{username} has been."
+    else
+      "Places we have been."
+    end
+    "hasbeen.in · #{suffix}"
   end
 end

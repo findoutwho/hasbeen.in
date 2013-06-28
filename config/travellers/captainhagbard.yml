@@ -6,6 +6,8 @@ profile:
 hasbeen:
   cities:
     - "Berlin"
+    - "Athen"
+    - "Thessaloniki"
     - "Köln"
     - "Hamburg"
     - "Bochum"

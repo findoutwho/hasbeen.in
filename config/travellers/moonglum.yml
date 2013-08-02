@@ -13,8 +13,10 @@ hasbeen:
     - "Berlin"
     - "Bodrum"
     - "Bonn"
+    - "Boston"
     - "Brno"
     - "Budapest"
+    - {"Cambridge": "Cambridge, USA"}
     - "Cologne"
     - "Crieff"
     - "Dresden"

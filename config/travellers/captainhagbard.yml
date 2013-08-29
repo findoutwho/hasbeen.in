@@ -6,6 +6,7 @@ profile:
 hasbeen:
   cities:
     - "Berlin"
+    - "New York"
     - "San Francisco"
     - "Los Angeles"
     - "Las Vegas"

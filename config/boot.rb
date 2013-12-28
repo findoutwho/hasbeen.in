@@ -7,6 +7,8 @@ require 'rubygems' unless defined?(Gem)
 require 'bundler/setup'
 Bundler.require(:default, PADRINO_ENV)
 
+I18n.enforce_available_locales = false
+
 ##
 # Enable devel logging
 #

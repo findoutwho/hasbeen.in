@@ -24,4 +24,4 @@ group :test do
 end
 
 # Padrino Stable Gem
-gem 'padrino', '0.11.1'
+gem 'padrino', '0.11.4'

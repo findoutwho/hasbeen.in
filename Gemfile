@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby "2.1.0"
 
 gem 'thin'
 
@@ -24,4 +25,4 @@ group :test do
 end
 
 # Padrino Stable Gem
-gem 'padrino', '0.11.1'
+gem 'padrino', '0.11.4'

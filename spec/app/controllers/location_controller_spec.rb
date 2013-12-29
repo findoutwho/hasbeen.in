@@ -9,7 +9,7 @@ describe "The www subdomain" do
     current_url.should == "http://hasbeen.test/"
     page.should have_content "Hej."
     page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Encoding Connoisseur, Franz Josef and Maximilian have been to. "
-    page.find('title').native.text.should eq "hasbeen.in · Places we have been."
+    page.title.should eq "hasbeen.in · Places we have been."
   end
 
   it "should have links to the correct travellers" do
@@ -29,7 +29,7 @@ describe "Profiles" do
     click_link("Bascht")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig, Hamburg, Oelsnitz, Bangkok, Shanghai and Amerika."
-    page.find('title').native.text.should eq "hasbeen.in · Places bascht has been."
+    page.title.should eq "hasbeen.in · Places bascht has been."
     current_url.should == "http://bascht.hasbeen.test/"
   end
 

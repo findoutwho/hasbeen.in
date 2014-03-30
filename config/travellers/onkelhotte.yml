@@ -1,0 +1,27 @@
+name: "Onkelhotte"
+profile:
+  web: "http://www.klaus-meyer.net"
+  twitter: "onkelhotte"
+  gravatar: "e925f52a96ec27314d2dd98b0c4725b8"
+hasbeen:
+  cities:
+    - "Augsburg"
+    - "Avignon"
+    - "Berlin"
+    - { "Billund" : "Billund, Denmark" }
+    - "Bregenz"
+    - "Cologne"
+    - "Dublin"
+    - "Galway"
+    - "Hamburg"
+    - "Kilkenny"
+    - "Leipzig"
+    - "Lindau"
+    - "London"
+    - "Marseille"
+    - "Munich"
+    - "Nîmes"
+    - { "Pula" : "Pula, Istria County, Croatia" }
+    - "Stuttgart"
+    - { "Uzès" : "Uzès, Nîmes, France" }
+

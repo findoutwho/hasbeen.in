@@ -3,6 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + "/../config/boot")
 require 'capybara'
 require 'capybara/dsl'
 require 'capybara/rspec'
+require 'json'
 
 Capybara.configure do |config|
   config.app = Padrino.application

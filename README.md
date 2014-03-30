@@ -12,7 +12,8 @@ Find out where your fellow geeks have been, add yourself:
 ### Traveller Profiles
 
 (*) You'll find the profiles in `config/travellers`. The
-filename will be your subdomain name, so `bascht.yaml` will be available at [bascht.hasbeen.in](http://bascht.hasbeen.in).
+filename will be your subdomain name, so `bascht.yaml` will be available at [bascht.hasbeen.in](http://bascht.hasbeen.in). Should a place be ambiguous, add a hash with the display
+name as key and a long name as a value for a city.
 
     name: "Bascht"
     profile:
@@ -25,6 +26,7 @@ filename will be your subdomain name, so `bascht.yaml` will be available at [bas
         - "Hamburg"
         - "Oelsnitz"
         - "Cologne"
+        - {"Amerika": "Amerika, Penig, Deutschland"}
     […]
 
 --

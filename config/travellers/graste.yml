@@ -1,0 +1,68 @@
+name: "graste"
+profile:
+  web: "http://mivesto.de"
+  twitter: "mivesto"
+  gravatar: "f77dc6bd80b092d71906c7e957925dc5"
+hasbeen:
+  cities:
+    - "Greifswald"
+    - "Stralsund"
+    - "Barth"
+    - "Jarmen"
+    - "Mülheim an der Ruhr"
+    - "Berlin"
+    - "Munich"
+    - "Hamburg"
+    - "Dresden"
+    - "Vienna"
+    - "Edinburgh"
+    - "Malmö"
+    - "Budapest"
+    - "Siófok"
+    - "Prague"
+    - "Singapore"
+    - {"Victoria": "Victoria, Seychelles"}
+    - {"Rubyvale": "Rubyvale, Queensland, Australia"}
+    - {"Sydney": "Sydney, New South Wales, Australia"}
+    - {"Toowoomba": "Toowoomba, Queensland, Australia"}
+    - {"Brisbane": "Brisbane, Queensland, Australia"}
+    - {"Cairns": "Cairns, Queensland, Australia"}
+    - {"Malanda": "Malanda, Queensland, Australia"}
+    - {"Hervey Bay": "Hervey Bay, Queensland, Australia"}
+    - {"Bundaberg": "Bundaberg, Queensland, Australia"}
+    - {"Tully": "Tully, Queensland, Australia"}
+    - {"Kuranda": "Kuranda, Queensland, Australia"}
+    - {"Wujal Wujal": "Wujal Wujal, Queensland, Australia"}
+    - {"Millaa Millaa Falls": "Millaa Falls Road, Millaa, Millaa, Queensland, Australia"}
+    - {"Alice Springs": "Alice Springs, Northern Territory, Australia"}
+    - {"Hermannsburg": "Hermannsburg, Northern Territory, Australia"}
+    - {"Kata Tjuta": "Kata Tjuta, Petermann, Northern Territory, Australia"}
+    - {"Uluru": "Uluru, Northern Territory, Australia"}
+    - {"Glen Helen Gorge": "Glen Helen Gorge, Northern Territory, Australia"}
+    - {"Watarrka National Park": "Watarrka National Park, Northern Territory, Australia"}
+    - {"Mossman Gorge": "Mossman Gorge, Queensland, Australia"}
+    - {"Mission Beach": "Mission Beach, Queensland, Australia"}
+    - {"Carnarvon National Park": "Southern Brigalow Belt, Queensland, Australia"}
+    - {"Great Sandy National Park": "Great Sandy National Park, Fraser Island, Queensland, Australia"}
+    - {"Melbourne": "Melbourne, Victoria, Australia"}
+    - {"Adelaide": "Adelaide, Southern Australia, Australia"}
+    - {"Cape Tribulation": "Cape Tribulation, Queensland, Australia"}
+    - {"Airlie Beach": "Airlie Beach, Queensland, Australia"}
+    - {"Rockhampton": "Rockhampton, Queensland, Australia"}
+    - {"Mackay": "Mackay, Queensland, Australia"}
+    - {"Eungella National Park": "Eungella National Park, Queensland, Australia"}
+    - {"Surfers Paradise": "Surfers Paradise, Queensland, Australia"}
+    - {"Tallebudgera": "Palm Beach, Queensland, Australia"}
+    - {"Coolangatta": "Coolangatta, Queensland, Australia"}
+    - {"Mooloolaba": "Mooloolaba, Queensland, Australia"}
+    - {"Crows Nest": "Crows Nest, Queensland, Australia"}
+    - {"Esk": "Esk, Queensland, Australia"}
+    - {"Byron Bay": "Byron Bay, New South Wales, Australia"}
+    - {"Hay": "Hay, New South Wales, Australia"}
+    - {"Canberra": "Canberra, Australian Capital Territory, Australia"}
+    - {"Port Stephens": "Port Stephens, New South Wales, Australia"}
+    - {"Katoomba": "Katoomba, New South Wales, Australia"}
+    - {"Cooktown": "Cooktown, Queensland, Australia"}
+    - {"Kangaroo Island": "Penneshaw, South Australia, Australia"}
+    - {"Lorne": "Lorne, Victoria, Australia"}
+    - {"Mildura": "Mildura, Victoria, Australia"}

@@ -22,10 +22,13 @@ hasbeen:
     - "Dresden"
     - "Edinburgh"
     - {"Ephesus": "Ephesus, Selcuk, Turkey" }
+    - "Ghent"
+    - {"Goa": "Goa, India"}
     - "Hamburg"
     - "Hanover"
     - "Heide"
     - "Hurghada"
+    - "Kennedy Space Center"
     - "Kiev"
     - "Krakow"
     - "Langeoog"
@@ -34,6 +37,7 @@ hasbeen:
     - "London"
     - "Lucca"
     - "Majorca"
+    - "Miami Beach"
     - "Munich"
     - "Munster"
     - "Paris"

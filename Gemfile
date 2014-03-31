@@ -26,3 +26,4 @@ end
 
 # Padrino Stable Gem
 gem 'padrino', '0.11.4'
+gem 'json', '~> 1.8.1'

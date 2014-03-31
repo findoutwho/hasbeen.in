@@ -38,8 +38,7 @@ describe "Profiles" do
     click_link("Leipzig")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig."
-    page.should have_xpath('/html/body[@onload]')
-    page.should have_xpath('/html/body[@onload="goto(\'Leipzig\')"]')
+    page.html.should include "<script>goto('Leipzig');</script>"
     current_url.should == "http://bascht.hasbeen.test/Leipzig"
   end
 
@@ -48,8 +47,7 @@ describe "Profiles" do
     click_link("Amerika")
     page.status_code.should == 200
     page.should have_content "Bascht has been in Amerika."
-    page.should have_xpath('/html/body[@onload]')
-    page.should have_xpath('/html/body[@onload="goto(\'Amerika%2C+Penig%2C+Deutschland\')"]')
+    page.html.should include "<script>goto('Amerika%2C+Penig%2C+Deutschland');</script>"
     current_url.should == "http://bascht.hasbeen.test/Amerika"
   end
 
@@ -69,6 +67,6 @@ describe "Locations" do
     visit_profile "bascht", "Hierwarnochkeinschwein"
     page.status_code.should == 404
     page.should have_content "Bascht hasn't been in Hierwarnochkeinschwein."
-    page.should have_xpath('/html/body[@onload="goto(\'Hierwarnochkeinschwein\')"]')
+    page.html.should include "<script>goto('Hierwarnochkeinschwein');</script>"
   end
 end

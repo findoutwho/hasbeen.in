@@ -1,4 +1,4 @@
-<div style="position: absolute;" class="navbar navbar-fixed-top">
+<div id="bar" style="position: absolute;" class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div style="width: auto; padding: 0 20px;" class="container">
       <div class="row-fluid">
@@ -18,4 +18,6 @@
     </div>
   </div>
 </div>
+<div id="map" style="width:100%; height:100%"></div>
+<script>overview(<%= @traveller.locations.to_json %>);</script>
 

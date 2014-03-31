@@ -4,11 +4,12 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <%= stylesheet_link_tag '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag 'custom' %>
+    <%= javascript_include_tag 'http://code.jquery.com/jquery-1.11.0.min.js' %>
     <%= javascript_include_tag 'hasbeen' %>
     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyAaMSg6gwxHyX9_dRb--bqCGKzeC6AS0yU&sensor=false" %>
     <title><%= descriptive_title %></title>
   </head>
-  <body onload="goto('<%= CGI.escape(@location.hint || @location) unless @location.nil? %>')">
+  <body>
     <%= yield %>
   </body>
 </html>

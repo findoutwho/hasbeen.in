@@ -25,5 +25,5 @@ group :test do
 end
 
 # Padrino Stable Gem
-gem 'padrino', '0.11.4'
+gem 'padrino', '0.12.0'
 gem 'json', '~> 1.8.1'

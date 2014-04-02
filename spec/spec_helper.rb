@@ -1,4 +1,5 @@
-PADRINO_ENV = :test unless defined?(PADRINO_ENV)
+ENV['RACK_ENV'] = 'test' unless ENV['RACK_ENV']
+
 require File.expand_path(File.dirname(__FILE__) + "/../config/boot")
 require 'capybara'
 require 'capybara/dsl'

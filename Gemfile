@@ -27,3 +27,4 @@ end
 # Padrino Stable Gem
 gem 'padrino', '0.12.0'
 gem 'json', '~> 1.8.1'
+gem 'google_maps_geocoder', '~> 0.3.0'

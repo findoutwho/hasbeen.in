@@ -1,0 +1,212 @@
+name: "Phrawzty"
+profile:
+  web: "https://www.dark.ca/"
+  twitter: "phrawzty"
+  gravatar: 918e5ea75264774cb9f2583a45d881ee
+hasbeen:
+  cities:
+    - {"Aix-en-Provence": "France"}
+    - {"Ajaccio": "France"}
+    - {"Albany": "NY, United States"}
+    - {"Albi": "France"}
+    - {"Altona": "MB, Canada"}
+    - {"Amsterdam": "The Netherlands"}
+    - {"Avignon": "France"}
+    - {"Bairnsdale": "Victoria, Australia"}
+    - {"Banff": "AB, Canada"}
+    - {"Bangalore": "India"}
+    - {"Barcelona": "Spain"}
+    - {"Bastia": "France"}
+    - {"Bayeux": "France"}
+    - {"Beaconsfield": "QC, Canada"}
+    - {"Beausejour": "MB, Canada"}
+    - {"Biarritz": "France"}
+    - {"Bidart": "France"}
+    - {"Birgu (Vittoriosa)": "Malta"}
+    - {"Bismarck": "ND, United States"}
+    - {"Blackheath": "New South Wales, Australia"}
+    - {"Boston": "MA, United States"}
+    - {"Boulogne-Billancourt": "France"}
+    - {"Brandon": "MB, Canada"}
+    - {"Brockville": "ON, Canada"}
+    - {"Brooklyn": "NY, United States"}
+    - {"Brossard": "QC, Canada"}
+    - {"Brussels": "Belgium"}
+    - {"Bungendore": "New South Wales, Australia"}
+    - {"Cadiz": "Spain"}
+    - {"Caen": "France"}
+    - {"Calgary": "AB, Canada"}
+    - {"Cambridge": "United Kingdom"}
+    - {"Canberra": "Australia"}
+    - {"Carefree": "AZ, United States"}
+    - {"Cascais": "Portugal"}
+    - {"Cave Creek": "AZ, United States"}
+    - {"Cergy": "France"}
+    - {"Chambly": "QC, Canada"}
+    - {"Charlottetown": "PE, Canada"}
+    - {"Churchill": "MB, Canada"}
+    - {"Collioure": "France"}
+    - {"Cologne": "North Rhine-Westphalia, Germany"}
+    - {"Copenhagen": "Denmark"}
+    - {"Cornwall": "ON, Canada"}
+    - {"Courbevoie": "France"}
+    - {"Cowes": "Victoria, Australia"}
+    - {"Creteil": "France"}
+    - {"Dawson Creek": "BC, Canada"}
+    - {"Dawson": "YT, Canada"}
+    - {"Deauville": "France"}
+    - {"Dollard-des-Ormeaux": "QC, Canada"}
+    - {"Dorval": "QC, Canada"}
+    - {"Drumheller": "AB, Canada"}
+    - {"Eden": "New South Wales, Australia"}
+    - {"Edmonton": "AB, Canada"}
+    - {"Fargo": "ND, United States"}
+    - {"Fecamp": "France"}
+    - {"Fitzroy": "Victoria, Australia"}
+    - {"Flin Flon": "MB, Canada"}
+    - {"Fredericton": "NB, Canada"}
+    - {"Gatineau": "QC,Canada"}
+    - {"Gif-sur-Yvette" : "France"}
+    - {"Gillam": "MB, Canada"}
+    - {"Gimli": "MB, Canada"}
+    - {"Glenbrook": "New South Wales, Australia"}
+    - {"Glendale": "AZ, United States"}
+    - {"Granada": "Spain"}
+    - {"Granby": "QC, Canada"}
+    - {"Grand Forks": "ND, United States"}
+    - {"Halifax": "NS, Canada"}
+    - {"Hana": "HI, United States"}
+    - {"Headingley": "MB, Canada"}
+    - {"Hull": "QC, Canada"}
+    - {"Istanbul": "Turkey"}
+    - {"Joliette": "QC, Canada"}
+    - {"Kanata": "ON, Canada"}
+    - {"Katoomba": "New South Wales, Australia"}
+    - {"Kelowna": "BC, Canada"}
+    - {"Kenora": "ON, Canada"}
+    - {"Kingman": "AZ, United States"}
+    - {"Kremlin Bicetre": "France"}
+    - {"L'Ile-Perrot": "QC, Canada"}
+    - {"La Defense": "France"}
+    - {"Lahaina": "HI, United States"}
+    - {"Lakes Entrance": "Victoria, Australia"}
+    - {"Las Vegas": "NV, United States"}
+    - {"Lausanne": "Switzerland"}
+    - {"Laval": "QC, Canada"}
+    - {"Les Lilas": "France"}
+    - {"Lethbridge": "AB, Canada"}
+    - {"Leura": "New South Wales, Australia"}
+    - {"Levis": "QC, Canada"}
+    - {"Lihue": "HI, United States"}
+    - {"Lille": "France"}
+    - {"Lisbon": "Portugal"}
+    - {"Lockport": "MB, Canada"}
+    - {"London": "United Kingdom"}
+    - {"Lorient": "France"}
+    - {"Lucca": "Italy"}
+    - {"Madrid": "Spain"}
+    - {"Mallacoota": "Victoria, Australia"}
+    - {"Malmö": "Sweden"}
+    - {"Marsa": "Malta"}
+    - {"Marseille": "France"}
+    - {"Melbourne": "Victoria, Australia"}
+    - {"Mellieha": "Malta"}
+    - {"Mesa": "AZ, United States"}
+    - {"Minneapolis": "MN, United States"}
+    - {"Minnedosa": "MB, Canada"}
+    - {"Minot": "ND, United States"}
+    - {"Mirboo North": "Victoria, Australia"}
+    - {"Mississauga": "ON, Canada"}
+    - {"Moncton": "NB, Canada"}
+    - {"Mont Tremblant": "QC, Canada"}
+    - {"Mont-St-Michel": "France"}
+    - {"Montpellier": "France"}
+    - {"Montréal": "QC, Canada"}
+    - {"Montreuil": "France"}
+    - {"Morden": "MB, Canada"}
+    - {"Morris": "MB, Canada"}
+    - {"Mountain View": "CA, United States"}
+    - {"Nanterre": "France"}
+    - {"Napa": "CA, United States"}
+    - {"New City": "NY, United States"}
+    - {"New York City": "NY, United States"}
+    - {"Newmerella": "Victoria, Australia"}
+    - {"Nimes": "France"}
+    - {"Noisy-le-Grand": "France"}
+    - {"North Las Vegas": "NV, United States"}
+    - {"Nottingham": "United Kingdom"}
+    - {"Oakland": "CA, United States"}
+    - {"Ottawa": "ON, Canada"}
+    - {"Palo Alto": "CA, United States"}
+    - {"Paradise Valley": "AZ, United States"}
+    - {"Paris": "France"}
+    - {"Peggy's Cove": "NS, Canada"}
+    - {"Perpignan": "France"}
+    - {"Phoenix": "AZ, United States"}
+    - {"Pisa": "Italy"}
+    - {"Pointe Claire": "QC, Canada"}
+    - {"Poissy": "France"}
+    - {"Portage la Prairie": "MB, Canada"}
+    - {"Portland": "OR, United States"}
+    - {"Puerto Vallarta": "Jalisco, Mexico"}
+    - {"Quebec City": "QC, Canada"}
+    - {"Queens Village": "NY, United States"}
+    - {"Rainy River": "ON, Canada"}
+    - {"Regina": "SK, Canada"}
+    - {"Reims": "France"}
+    - {"Rennes": "France"}
+    - {"Roissy-en-France": "France"}
+    - {"Rouen": "France"}
+    - {"Rueil-Malmaison": "France"}
+    - {"Russell": "MB, Canada"}
+    - {"Saint Jerome": "QC, Canada"}
+    - {"Saint John": "NB, Canada"}
+    - {"Saint-Cloud": "France"}
+    - {"Saint-Denis": "France"}
+    - {"Saint-Jean-sur-Richelieu": "QC, Canada"}
+    - {"San Francisco": "CA, United States"}
+    - {"San Gimignano": "Italy"}
+    - {"San Jose": "CA, United States"}
+    - {"Saratoga": "CA, United States"}
+    - {"Saskatoon": "SK, Canada"}
+    - {"Sault Ste. Marie": "ON, Canada"}
+    - {"Scottsdale": "AZ, United States"}
+    - {"Sedona": "AZ, United States"}
+    - {"Selkirk": "MB, Canada"}
+    - {"Sete": "France"}
+    - {"Seville": "Spain"}
+    - {"Sherbrooke": "QC, Canada"}
+    - {"Siena": "Italy"}
+    - {"Sonoma": "CA, United States"}
+    - {"St-Germain-en-Laye": "France"}
+    - {"Steinbach": "MB, Canada"}
+    - {"Strasbourg": "France"}
+    - {"Sunnyvale": "CA, United States"}
+    - {"Sydney": "New South Wales, Australia"}
+    - {"Tarxien": "Malta"}
+    - {"Tempe": "AZ, United States"}
+    - {"The Pas": "MB, Canada"}
+    - {"Thompson": "MB, Canada"}
+    - {"Thunder Bay": "ON, Canada"}
+    - {"Toronto": "ON, Canada"}
+    - {"Toulouse": "France"}
+    - {"Tournai": "Belgium"}
+    - {"Troyes": "France"}
+    - {"Valletta": "Malta"}
+    - {"Vancouver": "BC, Canada"}
+    - {"Vaudreuil": "QC, Canada"}
+    - {"Versailles": "France"}
+    - {"Vincennes": "France"}
+    - {"Volterra": "Italy"}
+    - {"Warsaw": "Poland"}
+    - {"Washington DC": "DC, United States"}
+    - {"Westmount": "QC, Canada"}
+    - {"White Rock": "BC, Canada"}
+    - {"Whitehorse": "YT, Canada"}
+    - {"Wickenburg": "AZ, United States"}
+    - {"Wikieup": "AZ, United States"}
+    - {"Winkler": "MB, Canada"}
+    - {"Winnipeg": "MB, Canada"}
+    - {"Yellowknife": "NT, Canada"}
+    - {"Zürich": "Switzerland"}
+    - {"Ängelholm": "Sweden"}

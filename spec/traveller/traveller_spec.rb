@@ -54,7 +54,8 @@ describe "A traveller" do
       Travellers.find("bjoern"),
       Travellers.find("encoder"),
       Travellers.find("franz"),
-      Travellers.find("max")
+      Travellers.find("max"),
+      Travellers.find("phrawzty")
     ]
   end
 

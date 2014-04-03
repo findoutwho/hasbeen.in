@@ -33,6 +33,15 @@ HasBeen.helpers do
     sub[1].downcase if defined? sub[1]
   end
 
+  # We ♥ our users
+  def preposition
+    if username == 'phrawzty'
+      'to'
+    else
+      'in'
+    end
+  end
+
   private
 
   def parsed_uri

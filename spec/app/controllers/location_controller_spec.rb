@@ -8,7 +8,7 @@ describe "The www subdomain" do
     page.status_code.should == 200
     current_url.should == "http://hasbeen.test/"
     page.should have_content "Hej."
-    page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Encoding Connoisseur, Franz Josef and Maximilian have been to. "
+    page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Encoding Connoisseur, Franz Josef, Maximilian and Phrawzty have been to. "
     page.title.should eq "hasbeen.in · Places we have been."
   end
 
@@ -59,6 +59,13 @@ describe "Profiles" do
   it "should generate readable sentences" do
     visit_profile "franz"
     page.should have_content "Franz Josef has been in Leipzig and Shanghai."
+  end
+
+  it "should be pedantic when it comes to phrawzty's profile" do
+    visit_profile "phrawzty"
+    page.should have_content "Phrawzty has been to Grammar School."
+    click_link("Grammar School")
+    page.should have_content "Phrawzty has been to Grammar School."
   end
 end
 

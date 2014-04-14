@@ -1,0 +1,176 @@
+name: "jzelenkov"
+profile:
+  web: "http://jzelenkov.com"
+  twitter: "jzelenkov"
+  gravatar: "1d2d86462361077fe0b7fbbc633683f2"
+hasbeen:
+  cities:
+    - "Tallinn"
+    - "Tartu"
+    - "Pärnu"
+    - "Narva"
+    - "Haapsalu"
+    - "Kuressaare"
+    - "Riga"
+    - "Helsinki"
+    - "Espoo"
+    - "Rovaniemi"
+    - "Stockholm"
+    - "Saint Petersburg"
+    - "Moscow"
+    - "Ryazan"
+    - "Minsk"
+    - "Homyel"
+    - "Kiev"
+    - "Odessa"
+    - "Yalta"
+    - "Lviv"
+    - "Hamburg"
+    - "Münster"
+    - "Aachen"
+    - "Würselen"
+    - "Hanover"
+    - "Maastricht"
+    - "Liège"
+    - "Amsterdam"
+    - "Bamberg"
+    - "Regensburg"
+    - "Würzburg"
+    - "Erlangen"
+    - "Nuremberg"
+    - "Munich"
+    - "Augsburg"
+    - "Freising"
+    - {"Andechs Monastery": "Bergstraße 2, 82346 Andechs, Germany"}
+    - "Murnau am Staffelsee"
+    - "Weilheim in Oberbayern"
+    - "Kochel am See"
+    - "Bad Tölz"
+    - {"Neuschwanstein Castle": "Neuschwansteinstraße 20, 87645 Schwangau, Germany"}
+    - "Memmingen"
+    - "Starnberg"
+    - "Garmisch-Partenkirchen"
+    - {"Zugspitze": "Zugspitze, 82491 Garmisch-Partenkirchen, Germany"}
+    - {"Wilder Kaiser": "Kaisergebirge, 6352 Kufstein, Austria"}
+    - "Nationalpark Berchtesgaden"
+    - "Salzburg"
+    - "Innsbruck"
+    - "Imst"
+    - "Freiburg"
+    - {"Europa-Park": "Europa-Park-Straße 2, 77977 Rust, Germany"}
+    - "Château du Haut-Kœnigsbourg"
+    - "Colmar"
+    - "Strasbourg"
+    - "Mulhouse"
+    - "Paris"
+    - "Nantes"
+    - "Angers"
+    - "Basel"
+    - "Zurich"
+    - "Bern"
+    - "Lucerne"
+    - "Lausanne"
+    - "Zermatt"
+    - {"Frutigen": "Frutigen, Switzerland"}
+    - {"Thun": "Thun, Switzerland"}
+    - "Spiez"
+    - "Interlaken"
+    - "St Gallen"
+    - "Vaduz"
+    - {"Genoa": "Genoa, Italy"}
+    - {"Portofino": "Portofino, Genoa, Italy"}
+    - {"Santa Margherita": "Santa Margherita Ligure GE Italy"}
+    - {"Levanto": "Levanto SP, Italy"}
+    - {"Monterosso al Mare": "Monterosso Al Mare SP, Italy"}
+    - {"Vernazza": "Vernazza SP, Italy"}
+    - {"Corniglia": "Corniglia, La Spezia, Italy"}
+    - {"Manarola": "Manarola, La Spezia, Italy"}
+    - {"Riomaggiore": "Riomaggiore SP, Italy"}
+    - "Cologne"
+    - "Düsseldorf"
+    - "Luxembourg"
+    - "Essen"
+    - "Bochum"
+    - "Dortmund"
+    - "Berlin"
+    - "Potsdam"
+    - "Karlsruhe"
+    - "Frankfurt"
+    - "Mannheim"
+    - "Stuttgart"
+    - "Ulm"
+    - "Brussels"
+    - "Rotterdam"
+    - "Caen"
+    - {"Saint Michael's Mount": "Mont Saint-Michel, 50170 Le Mont-Saint-Michel, France"}
+    - "Douarnenez"
+    - "La Rochelle"
+    - {"Bordeaux Wine Region": "Saint-Émilion, France"}
+    - "Toulouse"
+    - "Avignon"
+    - {"Nice": "Nice, France"}
+    - {"Saint-Tropez": "Saint-Tropez, France"}
+    - "Monaco"
+    - "Lyon"
+    - "Prague"
+    - "Budapest"
+    - "Madrid"
+    - {"Seville": "Seville, Sevilla, Spain"}
+    - {"Córdoba": "Córdoba, Andalusia, Spain"}
+    - {"Granada": "Granada, Spain"}
+    - "Gibraltar"
+    - "Podgorica"
+    - "Žabljak"
+    - "Budva"
+    - "Dubrovnik"
+    - "Mostar"
+    - "Sarajevo"
+    - "San Francisco"
+    - {"Sacramento": "Sacramento, California‎, USA"}
+    - {"Nevada City": "Nevada City, California‎, USA"}
+    - {"Berkeley": "Berkeley, California, USA"}
+    - {"Redwood National Park‎": "Redwood National and State Park, CA, USA"}
+    - "New York"
+    - "San Diego"
+    - "Los Angeles"
+    - "Hollywood"
+    - {"Newport Beach": "Newport Beach, CA, USA"}
+    - {"Flagstaff": "Flagstaff, Arizona‎, USA"}
+    - "Grand Canyon"
+    - "Monument Valley"
+    - {"Arches National Park": "Arches National Park, Moab, UT, USA"}
+    - {"Bryce Canyon National Park": "Bryce Canyon National Park, Hwy 63, Bryce Canyon, UT 84764, USA"}
+    - {"Zion National Park": "Zion National Park, Springdale, UT 84767, USA"}
+    - "Las Vegas"
+    - "London"
+    - "Oxford"
+    - {"Bath": "Bath, Bath and North East Somerset, UK"}
+    - {"Stonehenge": "Stonehenge, A344, Amesbury, Wiltshire SP4 7DE, United Kingdom"}
+    - "Edinburgh"
+    - "Stirling"
+    - {"Urquhart Castle": "Urquhart Castle, Drumnadrochit, Inverness, Inverness-shire IV63 6XJ, United Kingdom"}
+    - "Inverness"
+    - {"Talisker Distillery": "Talisker Distillery, Carbost, Isle of Skye IV47 8SR, United Kingdom"}
+    - {"Glenfiddich Distillery": "Glenfiddich Distillery, Dufftown, Banffshire AB55 4DH, United Kingdom"}
+    - {"Dalwhinnie Distillery": "Dalwhinnie Distillery, Dalwhinnie, Inverness-shire PH19 1AB, United Kingdom"}
+    - {"Macallan Distillery": "The Macallan Distillers Ltd, Macallan Distillery, Charlestown of Aberlour AB38 9RX, United Kingdom"}
+    - "Oslo"
+    - "Lillehammer"
+    - "Stavanger"
+    - {"Pulpit Rock": "Preikestolen, Forsand Norway"}
+    - "Bergen"
+    - {"Lysefjord": "Lysefjord, Forsand, Norway"}
+    - {"Geirangerfjorden": "Geirangerfjorden, Stranda, Norway"}
+    - "Alesund"
+    - "Aarhus"
+    - "Copenhagen"
+    - {"Kronborg Castle": "Kronborg, Kronborg 2C, 3000 Helsingør, Denmark"}
+    - {"Panama City": "Panama City, Panama"}
+    - {"David": "David, Chiriquí ,Panama"}
+    - {"Golfito": "Golfito, Costa Rica"}
+    - {"Puerto Jiménez": "Puerto Jiménez, Costa Rica"}
+    - {"Corcovado National Park": "Corcovado National Park, Puntarenas, Costa Rica"}
+    - {"San José": "San José, Costa Rica‎"}
+    - {"Monteverde": "Monteverde, Costa Rica"}
+    - {"Arenal Volcano National Park": "Arenal Volcano National Park, La Fortuna - El Castillo, Costa Rica"}
+    - "Vienna"

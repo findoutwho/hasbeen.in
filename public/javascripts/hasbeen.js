@@ -24,7 +24,7 @@ function display_map(locations) {
 function goto(single_location) {
   var geocoder = new google.maps.Geocoder();
   var map = new google.maps.Map(document.getElementById('map'), { disableDefaultUI: true });
-  geocoder.geocode({ address: single_location }, function(results, status) {
+  geocoder.geocode({ address: decodeURIComponent(single_location) }, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
       map.fitBounds(results[0].geometry.viewport);
       map.setCenter(results[0].geometry.location);

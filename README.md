@@ -31,4 +31,13 @@ name as key and a long name as a value for a city.
         - {"Amerika": "Amerika, Penig, Deutschland"}
     […]
 
+#### Validating your files
+
+If you want to validate your pull request before actually
+submitting it as an issue, use the built-int Rake task:
+
+```shell
+RACK_ENV=development bundle exec rake validate:travellers
+```
+
 --

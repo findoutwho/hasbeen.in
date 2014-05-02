@@ -1,7 +1,6 @@
 # Welcome to hasbeen.in, your geek-friendly travel site.
 
 [![Travis Build Status](https://travis-ci.org/bascht/hasbeen.in.png?branch=master)](https://travis-ci.org/bascht/hasbeen.in)
-[![Buildheroes BSR](https://www.buildheroes.com/projects/hasbeen-in.png)](https://www.buildheroes.com/projects/hasbeen-in)
 
 Find out where your fellow geeks have been, add yourself:
 

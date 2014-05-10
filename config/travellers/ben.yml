@@ -6,14 +6,17 @@ profile:
 hasbeen:
   cities:
     - "Amiens"
+    - "Antalya"
     - "Berlin"
     - "Bradenton"
     - "Bremen"
     - "Copenhagen"
     - "Dortmund"
     - "Dresden"
+    - "Grignan"
     - "Gräfenroda"
     - "Hamburg"
+    - "Hammamet"
     - "Hvide Sande"
     - "Jena"
     - "Jönköping"
@@ -26,7 +29,11 @@ hasbeen:
     - "Mundelsheim"
     - "Nuremberg"
     - "Prag"
-    - "Stockholm"
     - "Stuttgart"
     - "Verona"
     - "Würzburg"
+    - {"La Tremblade": "La Tremblade, Frankreich"}
+    - {"Lanzarote": "Lanzarote, Arrecife, Spanien"}
+    - {"Stockholm": "Stockholm, Schweden"}
+    - {"Tokio": "Tokio, Japan"}
+    - {"Visby": "Visby, Gotland, Schweden"}

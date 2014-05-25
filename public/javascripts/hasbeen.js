@@ -12,6 +12,9 @@ function display_map(locations) {
         map: map,
         title: single_location.name
       });
+      google.maps.event.addListener(marker, "click", function () {
+        window.location.href = single_location.name;
+      });
     }
     bounds.extend(pos);
   });

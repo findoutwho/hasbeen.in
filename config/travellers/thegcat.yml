@@ -1,0 +1,102 @@
+name: "thegcat"
+profile:
+  twitter: thegcat
+  gravatar: 607c2ad02d6f256ecc9cfb8b02e8559a
+hasbeen:
+  cities:
+    # Familie (vorige und aktuelle Wohnorte)
+    - {"Bottrop": "Bottrop, Deutschland"}
+    - {"Dortmund": "Dortmund, Deutschland"}
+    - {"Duisburg": "Duisburg, Deutschland"}
+    - {"Norken": "Norken, Deutschland"}
+    - {"Oldenburg": "Oldenburg, Deutschland"}
+    - {"Reinheim": "Reinheim, Deutschland"}
+    - {"Riedstadt": "Riedstadt, Deutschland"}
+    - {"Witten": "Witten, Deutschland"}
+    - {"Cournon d'Auvergne": "Cournon d'Auvergne, France"}
+    - {"Clermont-Ferrand": "Clermont-Ferrand, France"}
+    - {"Echirolles": "Echirolles, France"}
+    - {"Cork": "Cork, Ireland"}
+    # KIF
+    - {"Graz": "Graz, Österreich"}
+    - {"Karlsruhe": "Karlsruhe, Deutschland"}
+    - {"Regensburg": "Regensburg, Deutschland"}
+    - {"Magdeburg": "Magdeburg, Deutschland"}
+    - {"Paderborn": "Paderborn, Deutschland"}
+    - {"Berlin": "Berlin, Deutschland"}
+    - {"Dresden": "Dresden, Deutschland"}
+    - {"Darmstadt": "Darmstadt, Deutschland"}
+    - {"Hamburg": "Hamburg, Deutschland"}
+    - {"Bremen": "Bremen, Deutschland"}
+    - {"Ulm": "Ulm, Deutschland"}
+    - {"Kiel": "Kiel, Deutschland"}
+    - {"Erlangen": "Erlangen, Deutschland"}
+    # Arbeit
+    - {"Strasbourg": "Strasbourg, France"}
+    - {"Billund": "Billund, Danmark"}
+    - {"Brande": "Brande, Danmark"}
+    - {"Blomberg": "Blomberg, Deutschland"}
+    - {"Obernai": "Obernai, France"}
+    - {"München": "München, Deutschland"}
+    # Freunde
+    - {"Essen": "Essen, Deutschland"}
+    - {"Köln": "Köln, Deutschland"}
+    - {"Frankfurt am Main": "Frankfurt am Main, Deutschland"}
+    - {"Krefeld": "Krefeld, Deutschland"}
+    # Konferenzen
+    # * EuRuKo
+    - {"Amsterdam": "Amsterdam, Nederland"}
+    - {"Αθήνα": "Αθήνα, Ελλάδα"}
+    # * RailsBerry
+    - {"Kraków": "Kraków, Polska"}
+    # * wroc_love.rb
+    - {"Wrocław": "Wrocław, Polska"}
+    # * germany.rb
+    - {"Leipzig": "Leipzig, Detuschland"}
+    # Misc
+    - {"Montréal": "Montréal, Canada"}
+    - {"Ottawa": "Ottawa, Canada"}
+    - {"Barcelona": "Barcelona, España"}
+    - {"Cardiff": "Cardiff, United Kingdom"}
+    - {"London": "London, United Kingdom"}
+    - {"Laurencekirk": "Laurencekirk, United Kingdom"}
+    - {"Aberdeen": "Aberdeen, United Kingdom"}
+    - {"Paris": "Paris, France"}
+    - {"Lyon": "Lyon, France"}
+    - {"Grenoble": "Grenoble, France"}
+    - {"Perpignan": "Perpignan, France"}
+    - {"Düsseldorf": "Düsseldorf, Deutschland"}
+    - {"Thiers": "Thiers, France"}
+    - {"Wien": "Wien, Österreich"}
+    - {"Tauplitz": "Tauplitzalm, Österreich"}
+    - {"Budapest": "Budapest, Magyarország"}
+    # Chor
+    - {"北京": "北京, 中华人民共和国"}
+    - {"宁波市": "宁波市, 中华人民共和国"}
+    - {"嘉兴市": "嘉兴市, 中华人民共和国"}
+    - {"杭州": "杭州, 中华人民共和国"}
+    - {"上海": "上海, 中华人民共和国"}
+    - {"Ashford": "Ashford, United Kingdom"}
+    - {"Bristol": "Bristol, United Kingdom"}
+    - {"Conwy": "Conwy, United Kingdom"}
+    - {"Oxford": "Oxford, United Kingdom"}
+    - {"Canterbury": "Canterbury, United Kingdom"}
+    - {"Passau": "Passau, Deutschland"}
+    - {"Bratislava": "Bratislava, Slovensko"}
+    - {"Nürnberg": "Nürnberg, Deutschland"}
+    - {"Poznań": "Poznań, Polska"}
+    - {"Vilnius": "Vilnius, Lietuva"}
+    - {"Rīga": "Rīga, Latvija"}
+    - {"Warszawa": "Warszawa, Polska"}
+    - {"Solothurn": "Solothurn, Schweiz"}
+    - {"Zürich": "Zürich, Schweiz"}
+    - {"Grindelwald": "Grindelwald, Schweiz"}
+    - {"Bern": "Bern, Schweiz"}
+    - {"York": "York, United Kingdom"}
+    - {"Harrogate": "Harrogate, United Kingdom"}
+    - {"Carlisle": "Carlisle, United Kingdom"}
+    - {"Glasgow": "Glasgow, United Kingdom"}
+    - {"Stirling": "Stirling, United Kingdom"}
+    - {"Dunblane": "Dunblane, United Kingdom"}
+    - {"Hull": "Hull, United Kingdom"}
+    - {"Rotterdam": "Rotterdam, Nederland"}

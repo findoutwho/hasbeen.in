@@ -6,6 +6,7 @@ profile:
 hasbeen:
   cities:
     - "Aachen"
+    - "Aberfoyle"
     - "Amsterdam"
     - "Antalya"
     - "Bad Oeynhausen"
@@ -24,6 +25,7 @@ hasbeen:
     - {"Ephesus": "Ephesus, Selcuk, Turkey" }
     - "Ghent"
     - {"Goa": "Goa, India"}
+    - "Grantown on Spey"
     - "Hamburg"
     - "Hanover"
     - "Heide"
@@ -38,12 +40,20 @@ hasbeen:
     - "Lucca"
     - "Majorca"
     - "Miami Beach"
+    - "Mountain View"
     - "Munich"
     - "Munster"
+    - "Palo Alto"
     - "Paris"
     - "Pisa"
+    - "Porto de Galinhas"
+    - "Reno"
     - "Rhodes"
     - "Rome"
+    - "San Francisco"
     - {"Spa": "Spa, Liege, Belgium"}
+    - {"Stanford": "Stanford, California"}
+    - "Stirling"
+    - "Truckee"
     - "Ulm"
     - "Vienna"

@@ -10,12 +10,12 @@ HasBeen.controllers do
   get :index do
     case username
     when nil
-      @travellers = Travellers.find_all
-      render "index"
-    when "www"
       uri = parsed_uri()
       uri.host.sub!(/^www./, '')
       redirect uri.to_s
+    when "www"
+      @travellers = Travellers.find_all
+      render "index"
     else
       @traveller = Travellers.find(username)
       halt 404 if @traveller.nil?

@@ -2,11 +2,13 @@
 
 require 'spec_helper'
 
+
+
 describe "The www subdomain" do
-  it "should redirect to the homepage" do
-    visit_profile "www"
+  it "should be the homepage" do
+    visit "http://www.hasbeen.test"
     page.status_code.should == 200
-    current_url.should == "http://hasbeen.test/"
+    current_url.should == "http://www.hasbeen.test/"
     page.should have_content "Hej."
     page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Encoding Connoisseur, Franz Josef, Maximilian and Phrawzty have been to. "
     page.title.should eq "hasbeen.in · Places we have been."

@@ -53,10 +53,10 @@ HasBeen.helpers do
   end
 
   def descriptive_title
-    suffix = if username
-      "Places #{username} has been."
-    else
+    suffix = if username == 'www'
       "Places we have been."
+    else
+      "Places #{username} has been."
     end
     "hasbeen.in · #{suffix}"
   end

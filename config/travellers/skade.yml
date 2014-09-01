@@ -40,7 +40,7 @@ hasbeen:
     - "Marseille"
     - "Reims"
     - "Lisboa"
-    - "Faro"
+    - {"Faro": "Faro, Portugal"}
     - "Ghanzi"
     - "Montreal"
     - "Québec"

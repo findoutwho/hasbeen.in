@@ -119,12 +119,12 @@ hasbeen:
     - {"Córdoba": "Córdoba, Andalusia, Spain"}
     - {"Granada": "Granada, Spain"}
     - "Gibraltar"
-    - "Podgorica"
-    - "Žabljak"
-    - "Budva"
-    - "Dubrovnik"
-    - "Mostar"
-    - "Sarajevo"
+    - {"Podgorica": "Podgorica, Montenegro" }
+    - {"Žabljak": "Žabljak Municipality, Montenegro"}
+    - {"Budva": "Budva, Montenegro"}
+    - {"Dubrovnik": "Dubrovnik, Croatia"}
+    - {"Sarajevo": "Sarajevo, Bosnia and Herzegovina"}
+    - {"Mostar": "Mostar, Federation of Bosnia and Herzegovina, Bosnia and Herzegovina"}
     - "San Francisco"
     - {"Sacramento": "Sacramento, California‎, USA"}
     - {"Nevada City": "Nevada City, California‎, USA"}
@@ -170,7 +170,10 @@ hasbeen:
     - {"Golfito": "Golfito, Costa Rica"}
     - {"Puerto Jiménez": "Puerto Jiménez, Costa Rica"}
     - {"Corcovado National Park": "Corcovado National Park, Puntarenas, Costa Rica"}
-    - {"San José": "San José, Costa Rica‎"}
+    - {"San José": "San José, Costa Rica"}
     - {"Monteverde": "Monteverde, Costa Rica"}
     - {"Arenal Volcano National Park": "Arenal Volcano National Park, La Fortuna - El Castillo, Costa Rica"}
-    - "Vienna"
+    - {"Dublin": "Dublin, Ireland"}
+    - {"Waterford": "Waterford Castle, Waterford, Ireland"}
+    - {"Cliffs of Moher": "Cliffs of Moher, Liscannor, Clare, Ireland"}
+    - {"Vienna": "Vienna, Austria"}

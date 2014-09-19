@@ -1,0 +1,17 @@
+name: "lfuelling"
+profile:
+  web: "http://k40s.net"
+  twitter: "kellagroup"
+  gravatar: "cbb570c31a3b561fb0c08a6497c5f4ad"
+hasbeen:
+  cities:
+    - "Kassel"
+    - "Bremen"
+    - "Gythio"
+    - "Umag"
+    - "Budapest"
+    - "Pécs"
+    - "Frankfurt"
+    - "Unterheimbach"
+    - "Amsterdam"
+    - "Hamburg"

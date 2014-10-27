@@ -1,0 +1,26 @@
+name: "charlw"
+profile:
+  web: "http://charlw.github.io"
+  twitter: "cwelkin"
+  gravatar: "116a2afa2da2a10dc24190dc65bf57b0"
+hasbeen:
+  cities:
+    - "London"
+    - "Brighton"
+    - "Heidelberg"
+    - "Munich"
+    - "Bergen"
+    - "Oslo"
+    - "Los Angeles"
+    - "San Francisco"
+    - "San Diego"
+    - "Las Vegas"
+    - "Boston"
+    - "Salzburg"
+    - "Zell Am See"
+    - {"Birmingham": "Birmingham, United Kingdom"}
+    - "Manchester"
+    - "Barcelona"
+    - "Frankfurt"
+    - "Gran Canaria"
+    - "Lanzarote"

@@ -2,11 +2,12 @@ name: "Rin Raeuber"
 profile:
   web: "http://rin.li"
   twitter: "rinpaku"
-  gravatar: "67d3014fe6c86362a4c4ed0586827bb8"
+  gravatar: "92dc402905776c15aa4917ec348aeb72"
 hasbeen:
   cities:
     - "Alcúdia"
     - "Amsterdam"
+    - "Barcelona"
     - "Berlin"
     - "Brighton"
     - "Braga"
@@ -14,5 +15,7 @@ hasbeen:
     - "Essen"
     - "Göteborg"
     - "London"
+    - "Milano"
     - "München"
+    - "Stockholm"
     - "Zurich"

@@ -1,0 +1,24 @@
+name: "eljojo"
+profile:
+  web: "http://eljojo.net"
+  twitter: "eljojo"
+  gravatar: "570a76d7545a0ae4b693ffee5435717e"
+hasbeen:
+  cities:
+    - "Chillán"
+    - "Concepción"
+    - "Mendoza"
+    - "Bariloche"
+    - {"Santiago": "Santiago, Chile"}
+    - "Berlin"
+    - "Köln"
+    - "Paris"
+    - "Athens"
+    - "Prague"
+    - "Wrocław"
+    - "Kraków"
+    - "Amsterdam"
+    - "Marrakesh"
+    - "Barcelona"
+    - "Málaga"
+    - "Antalya"

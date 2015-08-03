@@ -87,6 +87,9 @@ hasbeen:
     - "Boston"
     - "Buffalo"
     - "Niagara Falls"
+    - "Washington, D.C."
+    - { "Alexandria": "Alexandria, Virginia, USA" }
+    - "New Orleans"
     - "Toronto"
     - "Algonquin Provincal Park"
     - "Montréal"
@@ -96,4 +99,8 @@ hasbeen:
     - "Beijing"
     - "Shanghai"
     - "Dalian"
+    - "Bali"
+    - "Singapore"
+    - "Melacca"
+    - "Kuala Lumpur"
 

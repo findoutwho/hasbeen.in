@@ -1,0 +1,86 @@
+name: "Jens"
+profile:
+  web: "https://jkraemer.net/"
+  twitter: "2SpacesNoTabs"
+  gravatar: "36feb4959db6ab8259a44962f0fa761f"
+hasbeen:
+  cities:
+    - "Berlin"
+    - "Dresden"
+    - "Quezon City"
+    - "Wellington"
+    - "Auckland"
+    - "Minsk"
+    - "Riga"
+    - "Moscow"
+    - "Sotchi"
+    - "Helsinki"
+    - "Gothenburg"
+    - "St. Petersburg"
+    - "Paris"
+    - "Nice"
+    - { "Mérida": "Mérida, Venezuela" }
+    - { "Mérida": "Mérida, Mexico" }
+    - "Barcelona"
+    - "Rostock"
+    - "Miami"
+    - "Vancouver"
+    - "Banff"
+    - "Medellin"
+    - "Cartagenas"
+    - "Bogota"
+    - "Maracaibo"
+    - "Playa del Carmen"
+    - "Cancún"
+    - "Belize City"
+    - "Quetzaltenango"
+    - { "Antigua": "Antigua, Guatemala" }
+    - { "El Tunco": "El Tunco, La Libertad, El Salvador" }
+    - { "Livingston": "Livingston, Guatemala" }
+    - { "Flores": "Flores, Guatemala" }
+    - { "San Pedro La Laguna": "San Pedro La Laguna, Guatemala" }
+    - { "West End": "West End, Roatán, Honduras" }
+    - { "La Ceiba": "La Ceiba, Honduras" }
+    - { "San Jose": "San Jose, Costa Rica" }
+    - { "Santa Marta": "Santa Marta, Colombia" }
+    - { "Port of Spain": "Port of Spain, Trinidad and Tobago" }
+    - { "Scarborough": "Scarborough, Trinidad and Tobago" }
+    - { "Brest": "Brest, France" }
+    - "Como"
+    - "Sanremo"
+    - { "Puerto de la Cruz": "Puerto de la Cruz, Spain" }
+    - "Hanoi"
+    - "Bangkok"
+    - "Krabi"
+    - "Krakow"
+    - "Warsaw"
+    - "Prague"
+    - "Cologne"
+    - "Aachen"
+    - "Stralsund"
+    - "Rimini"
+    - "Ho Chi Minh City"
+    - { "Medan": "Medan, North Sumatra, Indonesia" }
+    - { "Kuta": "Kuta, Bali" }
+    - { "Labuhanbajo": "Labuhanbajo, East Nusa Tenggara, Indonesia" }
+    - "Singapore"
+    - "London"
+    - "Edinburgh"
+    - "Beirut"
+    - "Istanbul"
+    - "Kyiv"
+    - "Odessa"
+    - "Yalta"
+    - "Sevastopol"
+    - "Lviv"
+    - "Yaremche"
+    - "Sofia"
+    - "Klaipėda"
+    - "Bialystok"
+    - { "Arusha": "Arusha, Tanzania" }
+    - { "Stone Town": "Stone Town, Zanzibar" }
+    - "Punta Cana"
+    - {"Christchurch": "Christchurch, New Zealand"}
+    - {"Queenstown": "Queenstown, New Zealand"}
+    - {"Napier": "Napier, New Zealand"}
+

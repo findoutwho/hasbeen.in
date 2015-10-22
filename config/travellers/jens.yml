@@ -5,35 +5,58 @@ profile:
   gravatar: "36feb4959db6ab8259a44962f0fa761f"
 hasbeen:
   cities:
+  # Germany
+    - "Aachen"
     - "Berlin"
+    - "Cologne"
     - "Dresden"
-    - "Quezon City"
-    - "Wellington"
-    - "Auckland"
-    - "Minsk"
+    - "Magdeburg"
+    - "Rostock"
+    - "Sassnitz"
+    - "Stralsund"
+  # Europe
+    - { "Brest": "Brest, France" }
+    - "Edinburgh"
+    - "London"
+    - "Paris"
+    - "Barcelona"
+    - "Nice"
+    - "Sanremo"
+    - "Como"
+    - "Rimini"
+    - "Gothenburg"
+    - "Prague"
+    - "Warsaw"
+    - "Sofia"
+    - "Krakow"
+    - "Klaipėda"
+    - "Helsinki"
     - "Riga"
+    - "Bialystok"
+    - "Lviv"
+    - "Yaremche"
+    - "Minsk"
+    - { "St. Petersburg": "St. Petersburg, Russia" }
+    - "Odessa"
+    - "Kyiv"
+    - "Sevastopol"
+    - "Yalta"
+    - "Istanbul"
     - "Moscow"
     - "Sotchi"
-    - "Helsinki"
-    - "Gothenburg"
-    - "St. Petersburg"
-    - "Paris"
-    - "Nice"
-    - { "Mérida": "Mérida, Venezuela" }
-    - { "Mérida": "Mérida, Mexico" }
-    - "Barcelona"
-    - "Rostock"
-    - "Miami"
-    - "Vancouver"
+  # Africa
+    - { "Puerto de la Cruz": "Puerto de la Cruz, Spain" }
+    - { "Arusha": "Arusha, Tanzania" }
+    - { "Stone Town": "Stone Town, Zanzibar" }
+  # America
+    - { "Vancouver": "Vancouver, Canada" }
     - "Banff"
-    - "Medellin"
-    - "Cartagenas"
-    - "Bogota"
-    - "Maracaibo"
+    - { "Mérida": "Mérida, Venezuela" }
+    - "Quetzaltenango"
+    - { "Mérida": "Mérida, Mexico" }
     - "Playa del Carmen"
     - "Cancún"
     - "Belize City"
-    - "Quetzaltenango"
     - { "Antigua": "Antigua, Guatemala" }
     - { "El Tunco": "El Tunco, La Libertad, El Salvador" }
     - { "Livingston": "Livingston, Guatemala" }
@@ -42,45 +65,36 @@ hasbeen:
     - { "West End": "West End, Roatán, Honduras" }
     - { "La Ceiba": "La Ceiba, Honduras" }
     - { "San Jose": "San Jose, Costa Rica" }
+    - "Miami"
+    - "Medellin"
+    - { "Cartagenas": "Cartagenas, Colombia" }
+    - "Bogota"
     - { "Santa Marta": "Santa Marta, Colombia" }
+    - "Maracaibo"
+    - "Punta Cana"
     - { "Port of Spain": "Port of Spain, Trinidad and Tobago" }
     - { "Scarborough": "Scarborough, Trinidad and Tobago" }
-    - { "Brest": "Brest, France" }
-    - "Como"
-    - "Sanremo"
-    - { "Puerto de la Cruz": "Puerto de la Cruz, Spain" }
-    - "Hanoi"
-    - "Bangkok"
-    - "Krabi"
-    - "Krakow"
-    - "Warsaw"
-    - "Prague"
-    - "Cologne"
-    - "Aachen"
-    - "Stralsund"
-    - "Rimini"
-    - "Ho Chi Minh City"
+  # Asia
+    - "Beirut"
     - { "Medan": "Medan, North Sumatra, Indonesia" }
+    - "Krabi"
+    - "Bangkok"
+    - "Singapore"
+    - "Hanoi"
+    - "Ho Chi Minh City"
+    - { "Hoi An": "Hoi An, Vietnam" }
     - { "Kuta": "Kuta, Bali" }
     - { "Labuhanbajo": "Labuhanbajo, East Nusa Tenggara, Indonesia" }
-    - "Singapore"
-    - "London"
-    - "Edinburgh"
-    - "Beirut"
-    - "Istanbul"
-    - "Kyiv"
-    - "Odessa"
-    - "Yalta"
-    - "Sevastopol"
-    - "Lviv"
-    - "Yaremche"
-    - "Sofia"
-    - "Klaipėda"
-    - "Bialystok"
-    - { "Arusha": "Arusha, Tanzania" }
-    - { "Stone Town": "Stone Town, Zanzibar" }
-    - "Punta Cana"
-    - {"Christchurch": "Christchurch, New Zealand"}
+    - { "Puerto Galera" : "Mindoro, Philippines" }
+    - "Quezon City"
+    - { "Baler" : "Baler, Aurora, Philippines" }
+    - { "Naga City": "Naga City, Philippines" }
+    - { "Legazpi City": "Legazpi City, Albay, Philippines" }
+    - { "Calbayog City": "Calbayog City, Samar, Philippines" }
+    - { "Virac": "Virac, Catanduanes, Philippines" }
     - {"Queenstown": "Queenstown, New Zealand"}
+    - {"Christchurch": "Christchurch, New Zealand"}
+    - "Wellington"
+    - "Auckland"
     - {"Napier": "Napier, New Zealand"}
 

@@ -12,9 +12,10 @@ hasbeen:
     - "Berlin"
     - "Bologna"
     - "Boston"
+    - "Braga"
     - "Bryce"
     - "Casterton"
-    - "Eden"
+    - {"Eden": "Eden, NSW, Australia"}
     - "Eindhoven"
     - "Enschede"
     - "Ferropolis"
@@ -34,7 +35,7 @@ hasbeen:
     - "Las Vegas"
     - "Los Angeles"
     - "Maastricht"
-    - "Melbourne"
+    - {"Melbourne": "Melbourne, NSW, Australia"}
     - "Miami"
     - "Mildura"
     - "Montreal"
@@ -60,4 +61,3 @@ hasbeen:
     - "Wien"
     - "Worms"
     - "Würzburg"
-    - "Braga"

@@ -1,7 +1,7 @@
-name: "ReneVolution"
+name: "reneVolution"
 profile:
-  web: "http://www.sparklingstudio.de"
-  twitter: "sparklingstudio"
+  web: "http://www.renevolution.com"
+  twitter: "renecalles"
   gravatar: "e590556cd6efce7b1dafb5fd4e6630c0"
 hasbeen:
   cities:
@@ -10,6 +10,9 @@ hasbeen:
     - "Hamburg"
     - "Stuttgart"
     - "Berlin"
+    - "Mannheim"
+    - "Heielberg"
+    - "Potsdam"
     - "Prague"
     - "Paris"
     - "London"
@@ -20,5 +23,14 @@ hasbeen:
     - "Gran Canaria"
     - "Tenerife"
     - "Dublin"
+    - "Knokke-Heist"
     - "Amsterdam"
+    - "Roermond"
+    - "Kärnten, Feld am See"
     - "Domburg (NL)"
+    - "Stockholm"
+    - {"Åvik": "Åvik Brygge, Lindesnes, Norwegen"}
+    - "Bergen"
+    - "Lloret de Mar"
+    - "Calella de la Costa"
+    - "Lucerne"

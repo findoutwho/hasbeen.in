@@ -49,7 +49,7 @@ HasBeen.helpers do
   end
 
   def join_us_link
-    '<p class="mini muted pull-right"><small>Join hasbeen.in at <a href="https://github.com/bascht/hasbeen.in">Github</a>!</small></p>'
+    '<p class="mini muted pull-right"><small>Join hasbeen.in at <a href="https://github.com/bascht/hasbeen.in">GitHub</a>!</small></p>'
   end
 
   def descriptive_title

@@ -6,10 +6,12 @@ profile:
 hasbeen:
   cities:
     - "Aachen"
+    - "Aberdeen"
     - "Aberfoyle"
     - "Amsterdam"
     - "Antalya"
     - "Bad Oeynhausen"
+    - "Ballindalloch"
     - "Barcelona"
     - "Bergisch Gladbach"
     - "Berlin"
@@ -17,15 +19,18 @@ hasbeen:
     - "Bonn"
     - "Boston"
     - "Brno"
+    - "Buckie"
     - "Budapest"
     - "Buenos Aires"
     - {"Cambridge": "Cambridge, USA"}
     - "Cologne"
+    - "Craigellachie"
     - "Crieff"
     - "Dresden"
     - "Dublin"
     - "Edinburgh"
     - {"Ephesus": "Ephesus, Selcuk, Turkey" }
+    - "Fochabers"
     - "Ghent"
     - {"Goa": "Goa, India"}
     - "Grantown on Spey"

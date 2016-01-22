@@ -1,0 +1,31 @@
+name: "dojobo"
+profile:
+    twitter: "dominicbordelon"
+hasbeen:
+    cities:
+        - {"Alexandria": "Alexandria, Louisiana, USA"}
+        - "Ville Platte"
+        - "Baton Rouge"
+        - "New Orleans"
+        - {"Lafayette": "Lafayette, LA, US"}
+        - "Dallas"
+        - "Houston"
+        - "Austin"
+        - "Biloxi"
+        - "Natchez"
+        - "Memphis"
+        - {"Jackson": "Jackson, MS, LA"}
+        - "Destin"
+        - "Tallahassee"
+        - {"Miami": "Miami, FL, US"}
+        - "Washington, D.C."
+        - {"Vienna": "Vienna, VA, US"}
+        - "New York"
+        - "Philadelphia"
+        - "Pittsburgh"
+        - {"Portland": "Portland, OR"}
+        - "Buenos Aires"
+        - "Munich"
+        - "Lille"
+        - "Rome"
+        - {"Birmingham": "Birmingham, UK"}

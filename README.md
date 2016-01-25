@@ -8,6 +8,24 @@ Find out where your fellow geeks have been, add yourself:
 * Add your traveller file (*)
 * Send a pull request
 
+### Testing locally
+
+Install all required Gems and start up Padrino:
+
+``` bash
+$ bundle install
+Using rake 10.1.1
+[…]
+Using thin 1.6.1
+Bundle complete! 15 Gemfile dependencies, 46 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+$
+```
+
+Using [xip.io](http://xip.io) you should reach hasbeen.in at:
+[hasbeen.in.127.0.0.1.xip.io](http://hasbeen.in.127.0.0.1.xip.io:3000/).
+
 ### Traveller Profiles
 
 (*) You'll find the profiles in `config/travellers`. The

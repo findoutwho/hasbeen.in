@@ -32,7 +32,7 @@ hasbeen:
     - "London"
     - "Budapest"
     - "Bodø"
-    - "Å"
+    - {"Å": "Å, Norway"}
     - "Svolvær"
     - "Tromsø"
     - "Trondheim"

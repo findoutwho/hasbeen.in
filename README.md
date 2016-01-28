@@ -24,7 +24,7 @@ $
 ```
 
 Using [xip.io](http://xip.io) you should reach hasbeen.in at:
-[hasbeen.in.127.0.0.1.xip.io](http://hasbeen.in.127.0.0.1.xip.io:3000/).
+[www.hasbeen.in.127.0.0.1.xip.io](http://www.hasbeen.in.127.0.0.1.xip.io:3000/).
 
 ### Traveller Profiles
 

@@ -52,6 +52,12 @@ HasBeen.helpers do
     '<p class="mini muted pull-right"><small>Join hasbeen.in at <a href="https://github.com/findoutwho/hasbeen.in">GitHub</a>!</small></p>'
   end
 
+  def home_link
+    uri = parsed_uri()
+    uri.host.sub!(/[A-z0-9]+\./, 'www.')
+    '<p class="mini muted pull-left"><small><a href="'+uri.to_s+'">« Others</a></small></p>'
+  end
+
   def descriptive_title
     suffix = if username == 'www'
       "Places we have been."

@@ -12,6 +12,7 @@
             <h1><%= link_to @traveller.name, url_for(:index) %></h1>
             <p class="lead">has been <%= preposition %> <%= format_locations(@traveller.locations) %>.
           </p>
+          <%= home_link  %>
           <%= join_us_link %>
         </div>
       </div>

@@ -37,6 +37,9 @@ HasBeen.controllers do
       rescue RuntimeError => e
       end
     end
+    if @traveller.current_hometown
+      locations << JSON.parse(@traveller.current_hometown.geo_data.to_json)
+    end
     { locations: locations.delete_if(&:nil?) }.to_json
   end
 
@@ -48,7 +51,7 @@ HasBeen.controllers do
     location = CGI.unescapeHTML(params[:location].force_encoding("UTF-8"))
 
     if @traveller.hasbeen_in?(location)
-      @location = @traveller.find_location(location)
+      @location = @traveller.find_location(location) || @traveller.current_hometown
       @verb = "has"
     else
       @location = Location.new(location)

@@ -67,4 +67,13 @@ describe "A traveller" do
     aliased_chinese_city.should == "重庆"
     aliased_chinese_city.hint.should == "Chóngqìng"
   end
+
+  # Munich is cosmopolitan, perfect for encoding junkies
+  it "should allow a current hometown" do
+    encoding_junkie.current_hometown.should == "Munich"
+  end
+
+  it "should know it has been in the current hometown" do 
+    encoding_junkie.hasbeen_in?("Munich").should == true
+  end
 end

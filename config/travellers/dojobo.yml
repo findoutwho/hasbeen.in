@@ -1,6 +1,7 @@
 name: "dojobo"
 profile:
     twitter: "dominicbordelon"
+    current_hometown: "Garching bei München"
 hasbeen:
     cities:
         - {"Alexandria": "Alexandria, Louisiana, USA"}
@@ -18,6 +19,7 @@ hasbeen:
         - "Destin"
         - "Tallahassee"
         - {"Miami": "Miami, FL, US"}
+        - "Key West"
         - "Washington, D.C."
         - {"Vienna": "Vienna, VA, US"}
         - "New York"
@@ -29,3 +31,4 @@ hasbeen:
         - "Lille"
         - "Rome"
         - {"Birmingham": "Birmingham, UK"}
+        - "Wien"

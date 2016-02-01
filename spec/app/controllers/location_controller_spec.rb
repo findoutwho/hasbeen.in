@@ -63,6 +63,17 @@ describe "Profiles" do
     page.should have_content "Franz Josef has been in Leipzig and Shanghai."
   end
 
+  it "should handle current hometown" do
+    visit_profile "encoder"
+    page.status_code.should == 200
+    page.should have_content "Encoding Connoisseur's current hometown is Munich."
+    click_link("Munich")
+    page.status_code.should == 200
+    page.should have_content "Encoding Connoisseur has been in Munich. This is Encoding Connoisseur's current hometown."
+    page.html.should include "<script>goto('Munich');</script>"
+    current_url.should == "http://encoder.hasbeen.test/Munich"
+  end
+
   it "should be pedantic when it comes to phrawzty's profile" do
     visit_profile "phrawzty"
     page.should have_content "Phrawzty has been to Grammar School."

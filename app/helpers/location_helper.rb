@@ -48,6 +48,19 @@ HasBeen.helpers do
     Addressable::URI.parse( request.url )
   end
 
+  def current_hometown_blurb
+    if @traveller.current_hometown
+      current_hometown = escape_html(@traveller.current_hometown)
+      "<p class='lead'>#{@traveller.name}'s current hometown is #{link_to(current_hometown, url_for(:index, :location => current_hometown))}.</p>"
+    end
+  end
+
+  def this_is_hometown
+    if @traveller.current_hometown == @location
+      "This is #{@traveller.name}'s current hometown."
+    end
+  end
+
   def join_us_link
     '<p class="mini muted pull-right"><small>Join hasbeen.in at <a href="https://github.com/findoutwho/hasbeen.in">GitHub</a>!</small></p>'
   end

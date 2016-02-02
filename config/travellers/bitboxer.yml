@@ -3,6 +3,7 @@ profile:
   web: "http://bodotasche.de"
   twitter: "bitboxer"
   gravatar: "51968c9632cc07ab399cc32412ccbb98"
+  current_hometown: "Berlin, Germany"
 hasbeen:
   cities:
     - "Adelaide"

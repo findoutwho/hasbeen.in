@@ -39,6 +39,7 @@ name as key and a long name as a value for a city.
       web: "http://bascht.com"
       twitter: "bascht"
       gravatar: "8656dc5476c819d4dcbd932a5744122a"
+      current_hometown: "München, Deutschland"
     hasbeen:
       cities:
         - "Leipzig"

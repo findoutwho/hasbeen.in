@@ -52,7 +52,7 @@ hasbeen:
     # * wroc_love.rb
     - {"Wrocław": "Wrocław, Polska"}
     # * germany.rb
-    - {"Leipzig": "Leipzig, Detuschland"}
+    - {"Leipzig": "Leipzig, Deutschland"}
     # Misc
     - {"Montréal": "Montréal, Canada"}
     - {"Ottawa": "Ottawa, Canada"}

@@ -12,6 +12,9 @@ function display_map(locations) {
         map: map,
         title: single_location.name
       });
+      if (single_location.special == "current_hometown") {
+        marker.setIcon('http://maps.google.com/mapfiles/ms/micons/blue-dot.png');
+      }
       google.maps.event.addListener(marker, "click", function () {
         window.location.href = single_location.name;
       });

@@ -22,7 +22,9 @@ class Traveller < OpenStruct
   end
 
   def hasbeen_in?(place)
-    self.locations.any?{ |location|
+    alllocations = self.locations
+    alllocations << self.current_hometown if self.current_hometown
+    alllocations.any?{ |location|
       location.casecmp(place) == 0
     }
   end
@@ -34,6 +36,14 @@ class Traveller < OpenStruct
   def gravatar
     if self.profile && self.profile["gravatar"]
       "http://www.gravatar.com/avatar/#{self.profile["gravatar"]}"
+    end
+  end
+
+  def current_hometown
+    if self.profile && self.profile["current_hometown"]
+      current_hometown = Location.new(self.profile["current_hometown"].to_s)
+      current_hometown.special = 'current_hometown'
+      current_hometown
     end
   end
 end

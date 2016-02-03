@@ -30,7 +30,7 @@ class Traveller < OpenStruct
   end
 
   def find_location(location)
-    self.locations.grep(location).first
+    self.locations.grep(/#{location}/i).first
   end
 
   def gravatar

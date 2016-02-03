@@ -89,4 +89,12 @@ describe "Locations" do
     page.should have_content "Bascht hasn't been in Hierwarnochkeinschwein."
     page.html.should include "<script>goto('Hierwarnochkeinschwein');</script>"
   end
+
+  it "should be case insensitive" do 
+    visit_profile "bascht", "leipzig"
+    page.status_code.should == 200
+    page.should have_content "Bascht has been in Leipzig."
+    page.html.should include "<script>goto('Leipzig');</script>"
+    current_url.should == "http://bascht.hasbeen.test/leipzig"
+  end
 end

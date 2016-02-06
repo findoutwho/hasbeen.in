@@ -29,8 +29,8 @@ Using [xip.io](http://xip.io) you should reach hasbeen.in at:
 ### Traveller Profiles
 
 (*) You'll find the profiles in `config/travellers`. The
-filename will be your subdomain name, so `bascht.yaml` will 
-be available at [bascht.hasbeen.in](http://bascht.hasbeen.in). 
+filename will be your subdomain name, so `bascht.yaml` will
+be available at [bascht.hasbeen.in](http://bascht.hasbeen.in).
 Should a place be ambiguous, add a hash with the display
 name as key and a long name as a value for a city.
 
@@ -52,7 +52,7 @@ name as key and a long name as a value for a city.
 #### Validating your files
 
 If you want to validate your pull request before actually
-submitting it as an issue, use the built-int Rake task:
+submitting it as an issue, use the built-in Rake task:
 
 ```shell
 RACK_ENV=development bundle exec rake validate:travellers

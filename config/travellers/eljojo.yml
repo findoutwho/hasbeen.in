@@ -7,18 +7,22 @@ hasbeen:
   cities:
     - "Chillán"
     - {"Santiago": "Santiago, Chile"}
-    - "Berlin"
+    - {"Berlin": "Berlin, Germany"}
     - "Concepción"
     - "Köln"
     - "Amsterdam"
     - "Barcelona"
+    - "Warsaw"
     - "Wrocław"
     - "Munich"
     - "Prague"
-    - "Paris"
+    - {"Paris": "Paris, France"}
+    - "San Pedro de Atacama"
+    - "Machu Picchu"
+    - "Cuzco"
     - "Mendoza"
     - "Bariloche"
-    - "Athens"
+    - {"Athens": "Athens, Greece"}
     - "Kraków"
     - "Marrakesh"
     - "Málaga"
@@ -29,5 +33,6 @@ hasbeen:
     - "Copenhagen"
     - "Oxford"
     - "Temuco"
+    - "Antofagasta"
     - "Puerto Montt"
     - "Valdivia"

@@ -55,3 +55,13 @@ hasbeen:
     - "Galway"
     - "Grindelwald"
     - "Cork"
+    - { "Washington": "Washington, D.C., DC, United States" }
+    - "Philadelphia"
+    - { "New York": "New York, NY, United States" }
+    - "North Kingstown"
+    - "Boston"
+    - "Montreal"
+    - "Barrie"
+    - "Toronto"
+    - "Kraków"
+    - "Innsbruck"

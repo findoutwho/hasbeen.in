@@ -13,14 +13,15 @@ hasbeen:
     - "Copenhagen"
     - "Dortmund"
     - "Dresden"
-    - "Grignan"
     - "Gräfenroda"
+    - "Grignan"
     - "Hamburg"
     - "Hammamet"
     - "Hvide Sande"
     - "Jena"
     - "Jerusalem"
     - "Jönköping"
+    - "Kadita"
     - "Karlsruhe"
     - "Kempten (Allgäu)"
     - "Kyriat Ono"
@@ -33,8 +34,10 @@ hasbeen:
     - "Prag"
     - "Stuttgart"
     - "Tel Aviv-Yafo"
+    - "Tsukim"
     - "Verona"
     - "Würzburg"
+    - "Yuval"
     - {"La Tremblade": "La Tremblade, Frankreich"}
     - {"Lanzarote": "Lanzarote, Arrecife, Spanien"}
     - {"Stockholm": "Stockholm, Schweden"}

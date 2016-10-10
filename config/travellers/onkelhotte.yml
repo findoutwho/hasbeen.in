@@ -11,7 +11,7 @@ hasbeen:
     - { "Billund" : "Billund, Denmark" }
     - "Bregenz"
     - "Cologne"
-    - "Dublin"
+    - { "Dublin" : "Dublin, Ireland" }
     - "Galway"
     - "Hamburg"
     - "Kilkenny"

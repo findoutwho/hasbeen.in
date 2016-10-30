@@ -26,7 +26,7 @@ hasbeen:
     - "Šibenik"
     - "Mailand"
     - "Zurich"
-    - "Dublin"
+    - {"Dublin": "Dublin, Ireland"}
     - "Salzburg"
     - "Stavanger"
     - "London"
@@ -46,3 +46,4 @@ hasbeen:
     - "Amsterdam"
     - "Stockholm"
     - "Bochum"
+    - "Pittsburgh"

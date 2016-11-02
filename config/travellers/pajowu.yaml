@@ -1,0 +1,21 @@
+name: "pajowu"
+profile:
+  web: ["https://pajowu.de", "https://einhorn.space"]
+  twitter: "pajowu"
+  current_hometown: "Tel Aviv"
+hasbeen:
+  cities:
+    - "Leipzig"
+    - "Chemnitz"
+    - "Dresden"
+    - "Berlin"
+    - "Köln"
+    - "Trier"
+    - "Hamburg"
+    - "Frankfurt am Main"
+    - "New York"
+    - "Washington"
+    - "Tel Aviv"
+    - "Jerusalem"
+    - "Akko"
+    - "Haifa"

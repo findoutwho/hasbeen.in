@@ -1,6 +1,6 @@
 name: "pajowu"
 profile:
-  web: ["https://pajowu.de", "https://einhorn.space"]
+  web: "https://pajowu.de"
   twitter: "pajowu"
   current_hometown: "Tel Aviv"
 hasbeen:

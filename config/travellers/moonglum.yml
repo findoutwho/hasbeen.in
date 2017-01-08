@@ -11,6 +11,7 @@ hasbeen:
     - "Aberfoyle"
     - "Amsterdam"
     - "Antalya"
+    - "Arosa"
     - "Bad Oeynhausen"
     - "Ballindalloch"
     - "Barcelona"
@@ -32,9 +33,11 @@ hasbeen:
     - "Edinburgh"
     - {"Ephesus": "Ephesus, Selcuk, Turkey" }
     - "Fochabers"
+    - "Geneva"
     - "Ghent"
     - {"Goa": "Goa, India"}
     - "Grantown on Spey"
+    - "Gumpoldskirchen"
     - "Hamburg"
     - "Hanover"
     - "Heide"
@@ -58,6 +61,7 @@ hasbeen:
     - "Munich"
     - "Munster"
     - "Nuremberg"
+    - "Nordhastedt"
     - "Palo Alto"
     - "Paris"
     - "Pisa"
@@ -69,6 +73,7 @@ hasbeen:
     - "Salzburg"
     - "San Francisco"
     - "Singapore"
+    - "Sofia"
     - {"Spa": "Spa, Liege, Belgium"}
     - {"Stanford": "Stanford, California"}
     - "Stirling"

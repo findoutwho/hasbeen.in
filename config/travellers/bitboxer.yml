@@ -16,6 +16,7 @@ hasbeen:
     - "Braga"
     - "Bryce"
     - "Casterton"
+    - "Copenhagen"
     - {"Eden": "Eden, NSW, Australia"}
     - "Eindhoven"
     - "Enschede"
@@ -36,6 +37,7 @@ hasbeen:
     - "Las Vegas"
     - "Los Angeles"
     - "Maastricht"
+    - "Malmö"
     - {"Melbourne": "Melbourne, NSW, Australia"}
     - "Miami"
     - "Mildura"
@@ -56,6 +58,7 @@ hasbeen:
     - "Sevilla"
     - "Shippensburg"
     - "Sofia"
+    - "Stockholm"
     - "Sydney"
     - "Toronto"
     - "Wagga Wagga"

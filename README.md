@@ -16,11 +16,20 @@ Install all required Gems and start up Padrino:
 $ bundle install
 Using rake 10.1.1
 […]
-Using thin 1.6.1
+Using puma 3.8.2
 Bundle complete! 15 Gemfile dependencies, 46 gems now installed.
 Use `bundle show [gemname]` to see where a bundled gem is installed.
 
-$
+[…]
+$ puma
+[69267] Puma starting in cluster mode...
+[69267] * Version 3.8.2 (ruby 2.4.1-p111), codename: Sassy Salamander
+[69267] * Min threads: 5, max threads: 5
+[69267] * Environment: development
+[69267] * Process workers: 2
+[69267] * Preloading application
+[69267] * Listening on tcp://0.0.0.0:3000
+[…]
 ```
 
 Using [nip.io](http://nip.io) you should reach hasbeen.in at:

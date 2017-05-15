@@ -1,7 +1,7 @@
 source "https://rubygems.org"
-ruby "2.1.2"
+ruby "2.4.1"
 
-gem 'thin'
+gem 'puma'
 
 gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
@@ -25,6 +25,6 @@ group :test do
 end
 
 # Padrino Stable Gem
-gem 'padrino', '0.12.0'
+gem 'padrino', '~> 0.12.0'
 gem 'json', '~> 1.8.1'
 gem 'google_maps_geocoder', '~> 0.3.0'

@@ -23,8 +23,8 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 $
 ```
 
-Using [xip.io](http://xip.io) you should reach hasbeen.in at:
-[www.hasbeen.in.127.0.0.1.xip.io](http://www.hasbeen.in.127.0.0.1.xip.io:3000/).
+Using [nip.io](http://nip.io) you should reach hasbeen.in at:
+[www.hasbeen.in.127.0.0.1.nip.io](http://www.hasbeen.in.127.0.0.1.nip.io:3000/).
 
 ### Traveller Profiles
 

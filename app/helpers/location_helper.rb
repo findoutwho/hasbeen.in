@@ -29,7 +29,7 @@ HasBeen.helpers do
   end
 
   def username
-    sub = request.host.match(/([A-z0-9]+).hasbeen.(.*\.xip\.io|dev|in|test)$/)
+    sub = request.host.match(/([A-z0-9]+).hasbeen.(.*\.[xn]ip\.io|dev|in|test)$/)
     sub[1].downcase if defined? sub[1]
   end
 

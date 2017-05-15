@@ -11,7 +11,7 @@
           <p class="lead">
             <h1><%= link_to @traveller.name, url_for(:index) %></h1>
             <p class="lead">has been <%= preposition %> <%= format_locations(@traveller.locations).html_safe %>.</p>
-            <%= current_hometown_blurb %>
+            <%= current_hometown_blurb&.html_safe %>
           </p>
           <%= home_link.html_safe  %>
           <%= join_us_link.html_safe %>

@@ -9,7 +9,7 @@ class HasBeen < Padrino::Application
   set :url_template, "http://{traveller}.hasbeen.in/{location}"
 
   configure :development do
-    set :url_template, "http://{traveller}.hasbeen.127.0.0.1.xip.io:3000/{location}"
+    set :url_template, "http://{traveller}.hasbeen.127.0.0.1.nip.io:3000/{location}"
   end
 
   configure :test do

@@ -2,7 +2,7 @@ language: ruby
 sudo: false
 cache: bundler
 rvm:
-  - 2.1.2
+  - 2.4.1
 notifications:
   webhooks: https://www.buildheroes.com/api/projects/c0cee3957d7966d06ed5d79e951d1b12a5c480cd/builds
 script: "bundle exec rake spec validate:travellers"

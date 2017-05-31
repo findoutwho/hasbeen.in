@@ -35,7 +35,7 @@ class Traveller < OpenStruct
 
   def gravatar
     if self.profile && self.profile["gravatar"]
-      "http://www.gravatar.com/avatar/#{self.profile["gravatar"]}"
+      "https://www.gravatar.com/avatar/#{self.profile["gravatar"]}"
     end
   end
 

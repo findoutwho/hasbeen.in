@@ -6,7 +6,7 @@ class HasBeen < Padrino::Application
   enable :sessions
 
   set :datadir, "config/travellers"
-  set :url_template, "http://{traveller}.hasbeen.in/{location}"
+  set :url_template, "https://{traveller}.hasbeen.in/{location}"
 
   configure :development do
     set :url_template, "http://{traveller}.hasbeen.127.0.0.1.nip.io:3000/{location}"

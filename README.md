@@ -32,8 +32,8 @@ $ puma
 […]
 ```
 
-Using [nip.io](http://nip.io) you should reach hasbeen.in at:
-[www.hasbeen.in.127.0.0.1.nip.io](http://www.hasbeen.in.127.0.0.1.nip.io:3000/).
+You can reach your local hasbeen.in instance at:
+[www.dev.hasbeen.in:3000](http://www.dev.hasbeen.in:3000).
 
 ### Traveller Profiles
 

@@ -6,9 +6,9 @@ require 'spec_helper'
 
 describe "The www subdomain" do
   it "should be the homepage" do
-    visit "http://www.hasbeen.test"
+    visit "http://www.test.hasbeen.in"
     page.status_code.should == 200
-    current_url.should == "http://www.hasbeen.test/"
+    current_url.should == "http://www.test.hasbeen.in/"
     page.should have_content "Hej."
     page.should have_content "Have a look at the places Bascht, Bjørn Lynne, Encoding Connoisseur, Franz Josef, Maximilian and Phrawzty have been to. "
     page.title.should eq "hasbeen.in · Places we have been."
@@ -17,7 +17,7 @@ describe "The www subdomain" do
   it "should have links to the correct travellers" do
     visit_profile "www"
     click_link "Bjørn Lynne"
-    current_url.should == "http://bjoern.hasbeen.test/"
+    current_url.should == "http://bjoern.test.hasbeen.in/"
     page.status_code.should == 200
     page.should have_content "Bjørn Lynne"
   end
@@ -32,7 +32,7 @@ describe "Profiles" do
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig, Hamburg, Oelsnitz, Bangkok, Shanghai and Amerika."
     page.title.should eq "hasbeen.in · Places bascht has been."
-    current_url.should == "http://bascht.hasbeen.test/"
+    current_url.should == "http://bascht.test.hasbeen.in/"
   end
 
   it "should have clickable location links" do
@@ -41,7 +41,7 @@ describe "Profiles" do
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig."
     page.html.should include "<script>goto('Leipzig');</script>"
-    current_url.should == "http://bascht.hasbeen.test/Leipzig"
+    current_url.should == "http://bascht.test.hasbeen.in/Leipzig"
   end
 
   it "should allow hinting to the correct places" do
@@ -50,7 +50,7 @@ describe "Profiles" do
     page.status_code.should == 200
     page.should have_content "Bascht has been in Amerika."
     page.html.should include "<script>goto('Amerika%2C+Penig%2C+Deutschland');</script>"
-    current_url.should == "http://bascht.hasbeen.test/Amerika"
+    current_url.should == "http://bascht.test.hasbeen.in/Amerika"
   end
 
   it "should take care of unicode" do
@@ -71,7 +71,7 @@ describe "Profiles" do
     page.status_code.should == 200
     page.should have_content "Encoding Connoisseur has been in Munich. This is Encoding Connoisseur's current hometown."
     page.html.should include "<script>goto('Munich');</script>"
-    current_url.should == "http://encoder.hasbeen.test/Munich"
+    current_url.should == "http://encoder.test.hasbeen.in/Munich"
   end
 
   it "should be pedantic when it comes to phrawzty's profile" do
@@ -95,6 +95,6 @@ describe "Locations" do
     page.status_code.should == 200
     page.should have_content "Bascht has been in Leipzig."
     page.html.should include "<script>goto('Leipzig');</script>"
-    current_url.should == "http://bascht.hasbeen.test/leipzig"
+    current_url.should == "http://bascht.test.hasbeen.in/leipzig"
   end
 end

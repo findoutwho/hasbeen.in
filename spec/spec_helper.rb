@@ -15,7 +15,7 @@ RSpec.configure do |conf|
 end
 
 def visit_profile(traveller, location = '')
-  visit "http://#{traveller}.hasbeen.test/#{location}"
+  visit "http://#{traveller}.test.hasbeen.in/#{location}"
 end
 
 def app

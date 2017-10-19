@@ -6,6 +6,7 @@ profile:
 hasbeen:
   cities:
     - "Cologne"
+    - "Nümbrecht"
     - "Munich"
     - "Hamburg"
     - "Stuttgart"
@@ -34,3 +35,6 @@ hasbeen:
     - "Lloret de Mar"
     - "Calella de la Costa"
     - "Lucerne"
+    - "Vancouver"
+    - "Geneva"
+    - "Porto Viro"

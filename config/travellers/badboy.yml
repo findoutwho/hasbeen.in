@@ -16,7 +16,7 @@ hasbeen:
     - "Paris"
     - "Malaga"
     - "Oslo"
-    - "St. Augustin"
+    - {"St. Augustin": "St. Augustin, Germany"}
     - "San Francisco"
     - "Moskau"
     - "New York"
@@ -37,10 +37,10 @@ hasbeen:
     - "Tromsø"
     - "Trondheim"
     - "Vancouver"
-    - "Bowser"
+    - {"Bowser": "Bowser, Canada"}
     - "Tofino"
     - "Penticton"
-    - "Jasper"
+    - {"Jasper": "Jasper, Canada"}
     - "Grande Prairie"
     - "Edmonton"
     - "Amsterdam"

@@ -47,3 +47,5 @@ hasbeen:
     - "Valdivia"
     - "Bariloche"
     - "Puerto Montt"
+    - {"London": "London, UK"}
+    - {"Exeter": "Exeter, UK"}

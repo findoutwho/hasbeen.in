@@ -1,0 +1,131 @@
+name: "sebmel"
+profile:
+  gravatar: "eff8a7418673e7fe912f485a32bf7666"
+  current_hometown: "Cologne, Germany"
+hasbeen:
+  cities:
+    - "Berlin"
+    - "Hamburg"
+    - "Hannover"
+    - "München"
+    - "Bansin"
+    - "Wilhelmshaven"
+    - "Passau"
+    - "Stuttgart"
+    - "Duisburg"
+    - "Stralsund"
+    - "Oberhausen"
+    - "Misdroy"
+    - "Paris"
+    - "London"
+    - "Görlitz"
+    - "Amsterdam"
+    - "Frankfurt, Main"
+    - "Barcelona"
+    # 2004
+    - {"Koror": "Koror, Palau"}
+    # 2006
+    - {"Cork": "Cork, Ireland"}
+    - {"Plymouth": "Plymouth, Great Britain"}
+    - "Kangerlussuaq"
+    - "Qaqortoq"
+    - "Sisimiut"
+    # 2008-11
+    - "Caracas"
+    - "Los Roques"
+    - "Devils Island"
+    - {"Belem": "Belem Brazil"}
+    - "Manaus"
+    # 2010-10
+    - "Beijing"
+    - "Shanghai"
+    - "Hangzhou"
+    - "Chongqing"
+    - "Xian"
+    - {"Three Gorges Dam": "Sandouping"}
+    - "Wuhan"
+    # 2012-06
+    - "Copenhagen"
+    - "Stockholm"
+    - "Turku"
+    - "Helsinki"
+    - "Tallin"
+    # 2013-03
+    - "Rome"
+    - "Naples"
+    - "Paphos"
+    - "Herakion"
+    - "Alanya"
+    - "Haifa"
+    - "Jerusalem"
+    - "Death Sea"
+    # 2013-10
+    - "Los Angeles"
+    - "Cabo San Lucas"
+    - "Puerto Vallarta"
+    - "Puerto Chiapas"
+    - {"Punta Arenas": "Punta Arenas Costa Rica"}
+    - "Panama Canal"
+    - "Cartagena"
+    # 2014-08
+    - {"Port Louis": "Port Louis Mauritius"}
+    - {"Pointe aux Biches": "Pointe aux Biches Mauritius"}
+    # 2011-11
+    - "Ho Chi Minh City"
+    # 2015-05
+    - "Singapore"
+    - "Kuala Lumpur"
+    - "Puerto Princesa"
+    - "Cebu"
+    - "Angkor Wat"
+    - "Siem Reap"
+    - "Krabi"
+    # 2015-06
+    - "Cala Millor"
+    # 2016-03
+    - {"Las Palmas": "Las Palmas Gran Canria"}
+    - "Santa Cruz de Tenerife"
+    - "San Sebastian de la Gomera"
+    - "Santa Cruz de la Palma"
+    - "Puerto del Rosario"
+    - "Agadir"
+    - "Funchal"
+    # 2016-06
+    - {"Seattle": "Seattle WA USA"}
+    - {"Columbia": "Columbia MO USA"}
+    # 2017-04
+    - {"Austin": "Austin TX, USA"}
+    # 2017-06
+    - "Wien"
+    - "Bratislava"
+    - "Budapest"
+    - "Dürnstein"
+    # 2017-07
+    - {"Washington DC": "Washington DC, USA"}
+    - {"Boston": "Boston, USA"}
+    - {"Providence": "Providence RI, USA"}
+    - {"Marthas Vineyard": "Marthas Vineyard, USA"}
+    - {"New York": "New York, USA"}
+    # 2017-10
+    - {"Moscow": "Moscow, Russia"}
+    # 2017-12
+    - {"Melbourne": "Melbourne, Australia"}
+    - {"Sydney": "Sydney, Australia"}
+    - {"Wollongong": "Wollongong, Australia"}
+    - {"Eden": "Eden, Australia"}
+    - {"Bairnsdale": "Bairnsdale, Australia"}
+    # 2018-03
+    - {"Bishkek": "Bishkek, Kyrgyzstan"}
+    - {"Issyk Kul": "Issyk Kul, Kyrgyzstan"}
+    - {"Osh": "Osh, Kyrgyzstan"}
+    - {"Chudschand": "Chudschand, Tajikistan"}
+    - {"Tashkent": "Tashkent, Uzbekistan"}
+    - {"Khiva": "Khiva, Uzbekistan"}
+    - {"Darvaza": "Darvaza, Turkmenistan"}
+    - {"Ashgabat": "Ashgabat, Turkmenistan"}
+    - {"Mary": "Mary, Turkmenistan"}
+    - {"Turkmenabat": "Turkmenabat, Turkmenistan"}
+    - {"Bukhara": "Bukhara, Uzbekistan"}
+    # 2018-08
+    - {"Ohrid": "Ohrid, Macedonia"}
+    - {"Skopje": "Skopje, Macedonia"}

@@ -29,11 +29,11 @@ GEM
       mime-types (>= 1.16, < 4)
     method_source (0.8.2)
     mime-types (2.99.3)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.4.0)
     minitest (5.10.2)
     moneta (0.7.20)
-    nokogiri (1.7.2)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
     padrino (0.12.8)
       padrino-admin (= 0.12.8)
       padrino-cache (= 0.12.8)
@@ -76,7 +76,7 @@ GEM
       slop (~> 3.4)
     puma (3.8.2)
     rack (1.5.5)
-    rack-protection (1.5.3)
+    rack-protection (1.5.5)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -127,7 +127,7 @@ DEPENDENCIES
   xpath
 
 RUBY VERSION
-   ruby 2.4.1p111
+   ruby 2.6.2p47
 
 BUNDLED WITH
-   1.14.6
+   1.17.2
